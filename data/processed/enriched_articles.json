@@ -1,0 +1,326 @@
+{
+  "total_articles": 19,
+  "abstracts_from_pubmed": 9,
+  "abstracts_from_openalex": 8,
+  "abstracts_missing": 2,
+  "errors": [],
+  "articles": [
+    {
+      "title": "OMOP-on-FHIR: Integrating the Clinical Data Through FHIR Bundle to OMOP CDM",
+      "year": 2025,
+      "authors": [
+        "Prabath Jayathissa",
+        "Lukas Rohatsch",
+        "Stefan Sauermann"
+      ],
+      "journal": "Studies in health technology and informatics",
+      "doi": "10.3233/shti250432",
+      "pmid": "40380541",
+      "sources": [
+        "OpenAlex",
+        "PubMed"
+      ],
+      "abstract": "The harmonization of the OMOP Common Data Model (CDM) with HL7 FHIR aims to enhance interoperability in clinical research by harmonizing diverse healthcare datasets. This process, referred to as OMOP-on-FHIR, leverages FHIR Bundles for real-time clinical data exchange and transforms these resources into OMOP CDM format using an ETL process. The ETL pipeline, facilitated by tools like XSLT, enables the extraction, transformation, and loading of data while maintaining semantic consistency. By bridging these two standards, OMOP-on-FHIR promotes the seamless exchange of data across clinical systems and research-oriented databases, supporting global health studies, advanced analytics, and personalized medicine. This methodology advances cross-border research by providing a standardized approach to data management and analysis, thereby improving healthcare outcomes.",
+      "abstract_source": "PubMed"
+    },
+    {
+      "title": "Towards the Representation of Genomic Data in HL7 FHIR and OMOP CDM",
+      "year": 2021,
+      "authors": [
+        "Yuan Peng",
+        "Azadeh Nassirian",
+        "Najia Ahmadi"
+      ],
+      "journal": "Studies in health technology and informatics",
+      "doi": "10.3233/shti210545",
+      "pmid": null,
+      "sources": [
+        "OpenAlex"
+      ],
+      "abstract": "High throughput sequencing technologies have facilitated an outburst in biological knowledge over the past decades and thus enables improvements in personalized medicine. In order to support (international) medical research with the combination of genomic and clinical patient data, a standardization and harmonization of these data sources is highly desirable. To support this increasing importance of genomic data, we have created semantic mapping from raw genomic data to both FHIR (Fast Healthcare Interoperability Resources) and OMOP (Observational Medical Outcomes Partnership) CDM (Common Data Model) and analyzed the data coverage of both models. For this, we calculated the mapping score for different data categories and the relative data coverage in both FHIR and OMOP CDM. Our results show, that the patients genomic data can be mapped to OMOP CDM directly from VCF (Variant Call Format) file with a coverage of slightly over 50%. However, using FHIR as intermediate representation does not lead to further information loss as the already stored data in FHIR can be further transformed into OMOP CDM format with almost 100% success. Our findings are in favor of extending OMOP CDM with patient genomic data using ETL to enable the researchers to apply different analysis methods including machine learning algorithms on genomic data.",
+      "abstract_source": "OpenAlex"
+    },
+    {
+      "title": "MENDS-on-FHIR: leveraging the OMOP common data model and FHIR standards for national chronic disease surveillance",
+      "year": 2024,
+      "authors": [
+        "Shahim Essaid",
+        "Jeff Andre",
+        "Ian M. Brooks"
+      ],
+      "journal": "JAMIA Open",
+      "doi": "10.1093/jamiaopen/ooae045",
+      "pmid": null,
+      "sources": [
+        "OpenAlex"
+      ],
+      "abstract": "ABSTRACT Objective The Multi-State EHR-Based Network for Disease Surveillance (MENDS) is a population-based chronic disease surveillance distributed data network that uses institution-specific extraction-transformation-load (ETL) routines. MENDS-on-FHIR examined using Health Language Seven’s Fast Healthcare Interoperability Resources (HL7 ® FHIR ® ) and US Core Implementation Guide (US Core IG) compliant resources derived from the Observational Medical Outcomes Partnership (OMOP) Common Data Model (CDM) to create a standards-based ETL pipeline. Materials and Methods The input data source was a research data warehouse containing clinical and administrative data in OMOP CDM Version 5.3 format. OMOP-to-FHIR transformations, using a unique JavaScript Object Notation (JSON)-to-JSON transformation language called Whistle, created FHIR R4 V4.0.1/US Core IG V4.0.0 conformant resources that were stored in a local FHIR server. A REST-based Bulk FHIR $export request extracted FHIR resources to populate a local MENDS database. Results Eleven OMOP tables were used to create 10 FHIR/US Core compliant resource types. A total of 1.13 trillion resources were extracted and inserted into the MENDS repository. A very low rate of non-compliant resources was observed. Discussion OMOP-to-FHIR transformation results passed validation with less than a 1% non-compliance rate. These standards-compliant FHIR resources provided standardized data elements required by the MENDS surveillance use case. The Bulk FHIR application programming interface (API) enabled population-level data exchange using interoperable FHIR resources. The OMOP-to-FHIR transformation pipeline creates a FHIR interface for accessing OMOP data. Conclusion MENDS-on-FHIR successfully replaced custom ETL with standards-based interoperable FHIR resources using Bulk FHIR. The OMOP-to-FHIR transformations provide an alternative mechanism for sharing OMOP data. LAY ABSTRACT Many chronic conditions, such as hypertension, obesity, and diabetes are becoming more prevalent, especially in high-risk individuals, such as minorities and low-income patients. Public health surveillance networks measure the presence of specific conditions repeatedly over time, seeking to detect changes in the amount of a disease conditions so that public health officials can implement new early-prevention programs or evaluate the impact of an existing prevention program. Data stored in electronic health records (EHRs) could be used to measure the presence of health conditions, but significant technical barriers make current methods for data extraction laborious and costly. HL7 BULK FHIR is a new data standard that is required to be available in all commercial EHR systems in the United States. We examined the use of BULK FHIR to provide EHR data to an existing public health surveillance network called MENDS. We found that HL7 BULK FHIR can provide the necessary data elements for MENDS in a standardized format. Using HL7 BULK FHIR could significantly reduce barriers to data for public health surveillance needs, enabling public health officials to expand the diversity of locations and patient populations being monitored.",
+      "abstract_source": "OpenAlex"
+    },
+    {
+      "title": "FHIR-Ontop-OMOP: Building clinical knowledge graphs in FHIR RDF with the OMOP Common data Model",
+      "year": 2022,
+      "authors": [
+        "Guohui Xiao",
+        "Emily Pfaff",
+        "Eric Prud’hommeaux"
+      ],
+      "journal": "Journal of Biomedical Informatics",
+      "doi": "10.1016/j.jbi.2022.104201",
+      "pmid": null,
+      "sources": [
+        "OpenAlex"
+      ],
+      "abstract": "BACKGROUND: Knowledge graphs (KGs) play a key role to enable explainable artificial intelligence (AI) applications in healthcare. Constructing clinical knowledge graphs (CKGs) against heterogeneous electronic health records (EHRs) has been desired by the research and healthcare AI communities. From the standardization perspective, community-based standards such as the Fast Healthcare Interoperability Resources (FHIR) and the Observational Medical Outcomes Partnership (OMOP) Common Data Model (CDM) are increasingly used to represent and standardize EHR data for clinical data analytics, however, the potential of such a standard on building CKG has not been well investigated. OBJECTIVE: To develop and evaluate methods and tools that expose the OMOP CDM-based clinical data repositories into virtual clinical KGs that are compliant with FHIR Resource Description Framework (RDF) specification. METHODS: We developed a system called FHIR-Ontop-OMOP to generate virtual clinical KGs from the OMOP relational databases. We leveraged an OMOP CDM-based Medical Information Mart for Intensive Care (MIMIC-III) data repository to evaluate the FHIR-Ontop-OMOP system in terms of the faithfulness of data transformation and the conformance of the generated CKGs to the FHIR RDF specification. RESULTS: A beta version of the system has been released. A total of more than 100 data element mappings from 11 OMOP CDM clinical data, health system and vocabulary tables were implemented in the system, covering 11 FHIR resources. The generated virtual CKG from MIMIC-III contains 46,520 instances of FHIR Patient, 716,595 instances of Condition, 1,063,525 instances of Procedure, 24,934,751 instances of MedicationStatement, 365,181,104 instances of Observations, and 4,779,672 instances of CodeableConcept. Patient counts identified by five pairs of SQL (over the MIMIC database) and SPARQL (over the virtual CKG) queries were identical, ensuring the faithfulness of the data transformation. Generated CKG in RDF triples for 100 patients were fully conformant with the FHIR RDF specification. CONCLUSION: The FHIR-Ontop-OMOP system can expose OMOP database as a FHIR-compliant RDF graph. It provides a meaningful use case demonstrating the potentials that can be enabled by the interoperability between FHIR and OMOP CDM. Generated clinical KGs in FHIR RDF provide a semantic foundation to enable explainable AI applications in healthcare.",
+      "abstract_source": "OpenAlex"
+    },
+    {
+      "title": "Standardizing Healthcare Data for CMS Submission: FHIR, HL7, and Data Warehousing Integration",
+      "year": 2024,
+      "authors": [
+        "Ramgopal Baddam"
+      ],
+      "journal": "International Journal of Artificial Intelligence Data Science and Machine Learning",
+      "doi": "10.63282/3050-9262.ijaidsml-v5i4p127",
+      "pmid": null,
+      "sources": [
+        "OpenAlex"
+      ],
+      "abstract": "The growing demand for interoperability and regulatory compliance in healthcare has made standardized data exchange a critical priority, particularly for submissions to the Centers for Medicare & Medicaid Services (CMS). This study explores the integration of Fast Healthcare Interoperability Resources (FHIR), Health Level Seven (HL7) standards, and modern data warehousing architectures to streamline CMS reporting workflows. While HL7 v2 and v3 have historically enabled clinical data exchange, their structural complexity and limited flexibility have constrained real-time analytics and large-scale regulatory reporting. FHIR, with its resource-based modular design and RESTful API capabilities, presents a more adaptable framework for harmonizing diverse healthcare datasets. This research proposes a unified architecture that bridges legacy HL7 messaging systems with FHIR-based APIs and centralized data warehouses. The approach focuses on transforming heterogeneous clinical, administrative, and claims data into standardized formats suitable for CMS quality reporting programs, including MIPS and value-based care initiatives. By incorporating Extract-Transform-Load (ETL) pipelines, semantic normalization layers, and cloud-based warehousing solutions, the model enhances data consistency, scalability, and accessibility. Findings indicate that integrating FHIR with enterprise data warehouses significantly improves data validation, reduces submission errors, and supports near real-time reporting capabilities. Additionally, the framework enables advanced analytics, such as predictive modeling for patient outcomes and compliance monitoring. However, challenges remain in areas such as data governance, mapping legacy HL7 segments to FHIR resources, and ensuring security under HIPAA constraints. Overall, this study highlights the importance of aligning interoperability standards with modern data infrastructure to meet evolving CMS requirements. The proposed integration framework offers a practical pathway for healthcare organizations seeking to improve reporting efficiency, data quality, and regulatory compliance in an increasingly data-driven environment.",
+      "abstract_source": "OpenAlex"
+    },
+    {
+      "title": "Fast Healthcare Interoperability Resources (FHIR) for Clinical, Epidemiological and Public Health Research: A Systematic Review",
+      "year": 2021,
+      "authors": [
+        "Carina Nina Vorisek",
+        "Moritz Lehne",
+        "Sophie Anne Inès Klopfenstein"
+      ],
+      "journal": "JMIR Medical Informatics",
+      "doi": "10.2139/ssrn.3919702",
+      "pmid": null,
+      "sources": [
+        "OpenAlex"
+      ],
+      "abstract": "BACKGROUND: The standard Fast Healthcare Interoperability Resources (FHIR) is widely used in health information technology. However, its use as a standard for health research is still less prevalent. To use existing data sources more efficiently for health research, data interoperability becomes increasingly important. FHIR provides solutions by offering resource domains such as \"Public Health & Research\" and \"Evidence-Based Medicine\" while using already established web technologies. Therefore, FHIR could help standardize data across different data sources and improve interoperability in health research. OBJECTIVE: The aim of our study was to provide a systematic review of existing literature and determine the current state of FHIR implementations in health research and possible future directions. METHODS: We searched the PubMed/MEDLINE, Embase, Web of Science, IEEE Xplore, and Cochrane Library databases for studies published from 2011 to 2022. Studies investigating the use of FHIR in health research were included. Articles published before 2011, abstracts, reviews, editorials, and expert opinions were excluded. We followed the PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) guidelines and registered this study with PROSPERO (CRD42021235393). Data synthesis was done in tables and figures. RESULTS: We identified a total of 998 studies, of which 49 studies were eligible for inclusion. Of the 49 studies, most (73%, n=36) covered the domain of clinical research, whereas the remaining studies focused on public health or epidemiology (6%, n=3) or did not specify their research domain (20%, n=10). Studies used FHIR for data capture (29%, n=14), standardization of data (41%, n=20), analysis (12%, n=6), recruitment (14%, n=7), and consent management (4%, n=2). Most (55%, 27/49) of the studies had a generic approach, and 55% (12/22) of the studies focusing on specific medical specialties (infectious disease, genomics, oncology, environmental health, imaging, and pulmonary hypertension) reported their solutions to be conferrable to other use cases. Most (63%, 31/49) of the studies reported using additional data models or terminologies: Systematized Nomenclature of Medicine Clinical Terms (29%, n=14), Logical Observation Identifiers Names and Codes (37%, n=18), International Classification of Diseases 10th Revision (18%, n=9), Observational Medical Outcomes Partnership common data model (12%, n=6), and others (43%, n=21). Only 4 (8%) studies used a FHIR resource from the domain \"Public Health & Research.\" Limitations using FHIR included the possible change in the content of FHIR resources, safety, legal matters, and the need for a FHIR server. CONCLUSIONS: Our review found that FHIR can be implemented in health research, and the areas of application are broad and generalizable in most use cases. The implementation of international terminologies was common, and other standards such as the Observational Medical Outcomes Partnership common data model could be used as a complement to FHIR. Limitations such as the change of FHIR content, lack of FHIR implementation, safety, and legal matters need to be addressed in future releases to expand the use of FHIR and, therefore, interoperability in health research.",
+      "abstract_source": "OpenAlex"
+    },
+    {
+      "title": "KETOS: Clinical decision support and machine learning as a service – A training and deployment platform based on Docker, OMOP-CDM, and FHIR Web Services",
+      "year": 2019,
+      "authors": [
+        "Julian Gruendner",
+        "Thorsten Schwachhofer",
+        "Phillip Sippl"
+      ],
+      "journal": "PLoS ONE",
+      "doi": "10.1371/journal.pone.0223010",
+      "pmid": null,
+      "sources": [
+        "OpenAlex"
+      ],
+      "abstract": "BACKGROUND AND OBJECTIVE: To take full advantage of decision support, machine learning, and patient-level prediction models, it is important that models are not only created, but also deployed in a clinical setting. The KETOS platform demonstrated in this work implements a tool for researchers allowing them to perform statistical analyses and deploy resulting models in a secure environment. METHODS: The proposed system uses Docker virtualization to provide researchers with reproducible data analysis and development environments, accessible via Jupyter Notebook, to perform statistical analysis and develop, train and deploy models based on standardized input data. The platform is built in a modular fashion and interfaces with web services using the Health Level 7 (HL7) Fast Healthcare Interoperability Resources (FHIR) standard to access patient data. In our prototypical implementation we use an OMOP common data model (OMOP-CDM) database. The architecture supports the entire research lifecycle from creating a data analysis environment, retrieving data, and training to final deployment in a hospital setting. RESULTS: We evaluated the platform by establishing and deploying an analysis and end user application for hemoglobin reference intervals within the University Hospital Erlangen. To demonstrate the potential of the system to deploy arbitrary models, we loaded a colorectal cancer dataset into an OMOP database and built machine learning models to predict patient outcomes and made them available via a web service. We demonstrated both the integration with FHIR as well as an example end user application. Finally, we integrated the platform with the open source DataSHIELD architecture to allow for distributed privacy preserving data analysis and training across networks of hospitals. CONCLUSION: The KETOS platform takes a novel approach to data analysis, training and deploying decision support models in a hospital or healthcare setting. It does so in a secure and privacy-preserving manner, combining the flexibility of Docker virtualization with the advantages of standardized vocabularies, a widely applied database schema (OMOP-CDM), and a standardized way to exchange medical data (FHIR).",
+      "abstract_source": "OpenAlex"
+    },
+    {
+      "title": "Large Language Models for Automating Clinical Data Standardization: HL7 FHIR Use Case",
+      "year": 2025,
+      "authors": [
+        "Álvaro I. Riquelme",
+        "Costa, Pedro",
+        "Martinez, Catalina"
+      ],
+      "journal": "arXiv (Cornell University)",
+      "doi": null,
+      "pmid": null,
+      "sources": [
+        "OpenAlex"
+      ],
+      "abstract": null,
+      "abstract_source": null
+    },
+    {
+      "title": "Bridging openEHR and OMOP: Expanded Mappings and Systematic Analysis of Semantic and Structural Limitations in the OMOP CDM",
+      "year": 2026,
+      "authors": [
+        "Severin Kohler",
+        "Diego Boscá",
+        "Falk Meyer-Eschenbach"
+      ],
+      "journal": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2607.27208",
+      "pmid": null,
+      "sources": [
+        "OpenAlex"
+      ],
+      "abstract": "Background: Interoperability between clinical and research data systems is essential for enabling secondary use of EHR data. The openEHR standard provides structured, model-driven clinical information, while the OMOP Common Data Model (CDM) supports large-scale observational analytics. The Eos engine and OMOP Conversion Language (OMOCL) previously introduced a standards-based transformation approach, but limited value set support, rigid visit generation, and incomplete mapping coverage restricted broader applicability. Methods: A new generation of Eos and OMOCL was implemented to improve semantic completeness and address earlier limitations. New functionality enables mapping of internal openEHR value sets via conceptMaps, supports visit occurrence generation using Archetype Query Language (AQL), and expands the international archetype mapping library. The framework was evaluated by assessing mapping coverage, terminology completeness, and domain distribution. Structural constraints of OMOP were examined using representative archetype mappings. Results: 196 openEHR archetypes were mapped, covering all stable archetypes in the international Clinical Knowledge Manager with OMOP-equivalent tables. 8.65% of primary concept identifiers could not be linked to OMOP standard terminologies. Most mappings targeted the Measurement (50.5%) and Observation (41.0%) domains. Structural analysis showed that coherent clinical concepts often required fragmentation across multiple loosely connected OMOP tables; the Problem/Diagnosis archetype alone required more than 20 linked records. Conclusions: The new framework strengthens openEHR-OMOP interoperability and reduces information loss. However, structural and semantic limitations within OMOP introduce fragmentation that may affect downstream analytics, suggesting a need for greater convergence between both ecosystems.",
+      "abstract_source": "OpenAlex"
+    },
+    {
+      "title": "Toward bidirectional FHIR–OMOP CDM transformations using TermX to support the secondary use of real-world health data within a patient-centered digital health paradigm",
+      "year": 2026,
+      "authors": [
+        "Hanna Kätlin Ardel",
+        "Rainer Randmaa",
+        "Igor Bossenko"
+      ],
+      "journal": "Frontiers in Medicine",
+      "doi": "10.3389/fmed.2026.1736785",
+      "pmid": null,
+      "sources": [
+        "OpenAlex"
+      ],
+      "abstract": "The increasing digitization of healthcare has led to vast amounts of clinical data, much of which remains underutilized for research. While Health Level Seven (HL7) Fast Healthcare Interoperability Resources (FHIR) improves interoperability in clinical care, it's primarily designed for real-time data exchange to support diagnosis and treatment, rather than for secondary use of health data. As a result, transforming FHIR data into standardized models such as the Observational Medical Outcomes Partnership (OMOP) Common Data Model (CDM) remains a challenge. This study employs TermX, an open-source terminology and data interoperability platform designed to enhance health data interoperability and support knowledge management. This allowed us to create bidirectional transformation rules between FHIR and OMOP CDM. Using the Design Science methodology, we developed and validated a set of standardized transformation rules that support bidirectional mapping of vital signs data between FHIR and OMOP CDM. In these transformations we used synthetical FHIR JSON data, focusing on five main resources— Observation, Patient, Encounter, Organization , and Practitioner . The focus of this work is primarily on methodological mapping rather than processing real-world datasets; the evaluation concentrates on mapping coverage, i.e., the proportion of FHIR elements that can be reliably transformed into OMOP CDM structures and vice versa. The resulting rules achieved 74% mapping coverage from FHIR to OMOP CDM tables, with unmapped elements primarily related to structural discrepancies. Mapping from OMOP CDM to FHIR reached approximately 23% coverage, capturing mostly values that were previously mapped from FHIR to OMOP CDM. These percentages reflect variations in the standards' structure and granularity. The application of TermX shows the feasibility of reusable, standards-based transformations that support the secondary use of real-world clinical data for medical research and analysis. By addressing key technical and semantic interoperability challenges, this work contributes to advancing digital health interoperability and supports the objectives of the European Health Data Space.",
+      "abstract_source": "OpenAlex"
+    },
+    {
+      "title": "recruIT: A cloud-native clinical trial recruitment support system based on Health Level 7 Fast Healthcare Interoperability Resources (HL7 FHIR) and the Observational Medical Outcomes Partnership Common Data Model (OMOP CDM).",
+      "year": "2024",
+      "authors": [
+        "Gulden C",
+        "Macho P",
+        "Reinecke I"
+      ],
+      "journal": "Computers in biology and medicine",
+      "doi": "10.1016/j.compbiomed.2024.108411",
+      "pmid": "38626510",
+      "sources": [
+        "PubMed"
+      ],
+      "abstract": "BACKGROUND: Clinical trials (CTs) are foundational to the advancement of evidence-based medicine and recruiting a sufficient number of participants is one of the crucial steps to their successful conduct. Yet, poor recruitment remains the most frequent reason for premature discontinuation or costly extension of clinical trials.\nMETHODS: We designed and implemented a novel, open-source software system to support the recruitment process in clinical trials by generating automatic recruitment recommendations. The development is guided by modern, cloud-native design principles and based on Health Level 7 (HL7) Fast Healthcare Interoperability Resources (FHIR) as an interoperability standard with the Observational Medical Outcomes Partnership (OMOP) Common Data Model (CDM) being used as a source of patient data. We evaluated the usability using the system usability scale (SUS) after deploying the application for use by study personnel.\nRESULTS: The implementation is based on the OMOP CDM as a repository of patient data that is continuously queried for possible trial candidates based on given clinical trial eligibility criteria. A web-based screening list can be used to display the candidates and email notifications about possible new trial participants can be sent automatically. All interactions between services use HL7 FHIR as the communication standard. The system can be installed using standard container technology and supports more sophisticated deployments on Kubernetes clusters. End-users (n = 19) rated the system with a SUS score of 79.9/100.\nCONCLUSION: We contribute a novel, open-source implementation to support the patient recruitment process in clinical trials that can be deployed using state-of-the art technologies. According to the SUS score, the system provides good usability.",
+      "abstract_source": "PubMed"
+    },
+    {
+      "title": "From Syntactic to Semantic Interoperability Using a Hyperontology in the Oncology Domain.",
+      "year": "2024",
+      "authors": [
+        "El Ghosh M",
+        "Kalokyri V",
+        "Sambres M"
+      ],
+      "journal": "Studies in health technology and informatics",
+      "doi": "10.3233/shti240670",
+      "pmid": "39176639",
+      "sources": [
+        "PubMed"
+      ],
+      "abstract": "Interoperability is crucial to overcoming various challenges of data integration in the healthcare domain. While OMOP and FHIR data standards handle syntactic heterogeneity among heterogeneous data sources, ontologies support semantic interoperability to overcome the complexity and disparity of healthcare data. This study proposes an ontological approach in the context of the EUCAIM project to support semantic interoperability among distributed big data repositories that have applied heterogeneous cancer image data models using a semantically well-founded Hyperontology for the oncology domain.",
+      "abstract_source": "PubMed"
+    },
+    {
+      "title": "Converge or Collide? Making Sense of a Plethora of Open Data Standards in Health Care.",
+      "year": "2024",
+      "authors": [
+        "Tsafnat G",
+        "Dunscombe R",
+        "Gabriel D"
+      ],
+      "journal": "Journal of medical Internet research",
+      "doi": "10.2196/55779",
+      "pmid": "38593431",
+      "sources": [
+        "PubMed"
+      ],
+      "abstract": "Practitioners of digital health are familiar with disjointed data environments that often inhibit effective communication among different elements of the ecosystem. This fragmentation leads in turn to issues such as inconsistencies in services versus payments, wastage, and notably, care delivered being less than best-practice. Despite the long-standing recognition of interoperable data as a potential solution, efforts in achieving interoperability have been disjointed and inconsistent, resulting in numerous incompatible standards, despite the widespread agreement that fewer standards would enhance interoperability. This paper introduces a framework for understanding health care data needs, discussing the challenges and opportunities of open data standards in the field. It emphasizes the necessity of acknowledging diverse data standards, each catering to specific viewpoints and needs, while proposing a categorization of health care data into three domains, each with its distinct characteristics and challenges, along with outlining overarching design requirements applicable to all domains and specific requirements unique to each domain.",
+      "abstract_source": "PubMed"
+    },
+    {
+      "title": "Design for a Modular Clinical Trial Recruitment Support System Based on FHIR and OMOP.",
+      "year": "2020",
+      "authors": [
+        "Reinecke I",
+        "Gulden C",
+        "Kümmel M"
+      ],
+      "journal": "Studies in health technology and informatics",
+      "doi": "10.3233/shti200142",
+      "pmid": "32570366",
+      "sources": [
+        "PubMed"
+      ],
+      "abstract": "The MIRACUM consortium is developing a Clinical Trials Recruitment Support System to support the data-driven recruitment of patients for clinical trials. The design of the prototype includes both open source solutions (OMOP CDM, Atlas) and open standards for interoperability (FHIR). The aim of the prototype is to create a patient screening list of potential participants for a clinical study. The paper shows the modular structure and functionality of the prototype building the foundation for the practical implementation of the CTRSS and, at the same time, demonstrating the use of open source solutions and standards for the development of clinical support systems.",
+      "abstract_source": "PubMed"
+    },
+    {
+      "title": "From OpenEHR to FHIR and OMOP Data Model for Microbiology Findings.",
+      "year": "2021",
+      "authors": [
+        "Rinaldi E",
+        "Thun S"
+      ],
+      "journal": "Studies in health technology and informatics",
+      "doi": "10.3233/shti210189",
+      "pmid": "34042774",
+      "sources": [
+        "PubMed"
+      ],
+      "abstract": "HiGHmed is a German Consortium where eight University Hospitals have agreed to the cross-institutional data exchange through novel medical informatics solutions. The HiGHmed Use Case Infection Control group has modelled a set of infection-related data in the openEHR format. In order to establish interoperability with the other German Consortia belonging to the same national initiative, we mapped the openEHR information to the Fast Healthcare Interoperability Resources (FHIR) format recommended within the initiative. FHIR enables fast exchange of data thanks to the discrete and independent data elements into which information is organized. Furthermore, to explore the possibility of maximizing analysis capabilities for our data set, we subsequently mapped the FHIR elements to the Observational Medical Outcomes Partnership Common Data Model (OMOP CDM). The OMOP data model is designed to support the conduct of research to identify and evaluate associations between interventions and outcomes caused by these interventions. Mapping across standard allows to exploit their peculiarities while establishing and/or maintaining interoperability. This article provides an overview of our experience in mapping infection control related data across three different standards openEHR, FHIR and OMOP CDM.",
+      "abstract_source": "PubMed"
+    },
+    {
+      "title": "Data Integration into OMOP CDM for Heterogeneous Clinical Data Collections via HL7 FHIR Bundles and XSLT.",
+      "year": "2020",
+      "authors": [
+        "Fischer P",
+        "Stöhr MR",
+        "Gall H"
+      ],
+      "journal": "Studies in health technology and informatics",
+      "doi": "10.3233/shti200138",
+      "pmid": "32570362",
+      "sources": [
+        "PubMed"
+      ],
+      "abstract": "Data integration is an important task in medical informatics and highly impacts the gain out of existing health information data. These tasks are using implemented as extract transform and load processes. By introducing HL7 FHIR as an intermediate format, our aim was to integrate heterogeneous data from a German pulmonary hypertension registry into an OMOP Common Data Model. First, domain knowledge experts defined a common parameter set, which was subsequently mapped to standardized terminologies like LOINC or SNOMED-CT. Data was extracted as HL7 FHIR Bundle to be transformed to OMOP CDM by using XSLT. We successfully transformed the majority of data elements to the OMOP CDM in a feasible time.",
+      "abstract_source": "PubMed"
+    },
+    {
+      "title": "Accelerating Multi-site Health Informatics with Streamlined Data Infrastructure using OMOP-on-FHIR.",
+      "year": "2022",
+      "authors": [
+        "Marteau BL",
+        "Zhu Y",
+        "Giuste F"
+      ],
+      "journal": "Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Annual International Conference",
+      "doi": "10.1109/embc48229.2022.9871865",
+      "pmid": "36085809",
+      "sources": [
+        "PubMed"
+      ],
+      "abstract": "Shriners Children's (SHC) is a hospital system whose mission is to advance the treatment and research of pediatric diseases. SHC success has generated a wealth of clinical data. Unfortunately, barriers to healthcare data access often limit data-driven clinical research. We decreased this burden by allowing access to clinical data via the standardized data access standard called FHIR (Fast Healthcare Interoperability Resources). Specifically, we converted existing data in the Observational Medical Outcomes Partnership (OMOP) Common Data Model (CDM) standard into FHIR data elements using a technology called OMOP-on-FHIR. In addition, we developed two applications leveraging the FHIR data elements to facilitate patient cohort curation to advance research into pediatric musculoskeletal diseases. Our work enables clinicians and clinical researchers to use hundreds of currently available open-sourced FHIR applications. Our successful implementation of OMOP-on-FHIR within a large hospital system will accelerate advancements in pediatric disease treatment and research.",
+      "abstract_source": "PubMed"
+    },
+    {
+      "title": "Correction to: A comparison of Fast Healthcare Interoperability Resources and Observational Medical Outcomes Partnership electronic health record data within the All of Us Research Program.",
+      "year": "2026",
+      "authors": [],
+      "journal": "Journal of the American Medical Informatics Association : JAMIA",
+      "doi": "10.1093/jamia/ocag134",
+      "pmid": "42606502",
+      "sources": [
+        "PubMed"
+      ],
+      "abstract": null,
+      "abstract_source": null
+    },
+    {
+      "title": "Harvesting metadata in clinical care: a crosswalk between FHIR, OMOP, CDISC and openEHR metadata.",
+      "year": "2022",
+      "authors": [
+        "Bönisch C",
+        "Kesztyüs D",
+        "Kesztyüs T"
+      ],
+      "journal": "Scientific data",
+      "doi": "10.1038/s41597-022-01792-7",
+      "pmid": "36307424",
+      "sources": [
+        "PubMed"
+      ],
+      "abstract": "Metadata describe information about data source, type of creation, structure, status and semantics and are prerequisite for preservation and reuse of medical data. To overcome the hurdle of disparate data sources and repositories with heterogeneous data formats a metadata crosswalk was initiated, based on existing standards. FAIR Principles were included, as well as data format specifications. The metadata crosswalk is the foundation of data provision between a Medical Data Integration Center (MeDIC) and researchers, providing a selection of metadata information for research design and requests. Based on the crosswalk, metadata items were prioritized and categorized to demonstrate that not one single predefined standard meets all requirements of a MeDIC and only a maximum data set of metadata is suitable for use. The development of a convergence format including the maximum data set is the anticipated solution for an automated transformation of metadata in a MeDIC.",
+      "abstract_source": "PubMed"
+    }
+  ]
+}

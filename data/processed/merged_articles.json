@@ -1,0 +1,293 @@
+{
+  "total_before_deduplication": 20,
+  "total_after_deduplication": 19,
+  "duplicates_detected": 1,
+  "articles": [
+    {
+      "title": "OMOP-on-FHIR: Integrating the Clinical Data Through FHIR Bundle to OMOP CDM",
+      "year": 2025,
+      "authors": [
+        "Prabath Jayathissa",
+        "Lukas Rohatsch",
+        "Stefan Sauermann"
+      ],
+      "journal": "Studies in health technology and informatics",
+      "doi": "10.3233/shti250432",
+      "pmid": "40380541",
+      "sources": [
+        "OpenAlex",
+        "PubMed"
+      ]
+    },
+    {
+      "title": "Towards the Representation of Genomic Data in HL7 FHIR and OMOP CDM",
+      "year": 2021,
+      "authors": [
+        "Yuan Peng",
+        "Azadeh Nassirian",
+        "Najia Ahmadi"
+      ],
+      "journal": "Studies in health technology and informatics",
+      "doi": "10.3233/shti210545",
+      "pmid": null,
+      "sources": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "title": "MENDS-on-FHIR: leveraging the OMOP common data model and FHIR standards for national chronic disease surveillance",
+      "year": 2024,
+      "authors": [
+        "Shahim Essaid",
+        "Jeff Andre",
+        "Ian M. Brooks"
+      ],
+      "journal": "JAMIA Open",
+      "doi": "10.1093/jamiaopen/ooae045",
+      "pmid": null,
+      "sources": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "title": "FHIR-Ontop-OMOP: Building clinical knowledge graphs in FHIR RDF with the OMOP Common data Model",
+      "year": 2022,
+      "authors": [
+        "Guohui Xiao",
+        "Emily Pfaff",
+        "Eric Prud’hommeaux"
+      ],
+      "journal": "Journal of Biomedical Informatics",
+      "doi": "10.1016/j.jbi.2022.104201",
+      "pmid": null,
+      "sources": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "title": "Standardizing Healthcare Data for CMS Submission: FHIR, HL7, and Data Warehousing Integration",
+      "year": 2024,
+      "authors": [
+        "Ramgopal Baddam"
+      ],
+      "journal": "International Journal of Artificial Intelligence Data Science and Machine Learning",
+      "doi": "10.63282/3050-9262.ijaidsml-v5i4p127",
+      "pmid": null,
+      "sources": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "title": "Fast Healthcare Interoperability Resources (FHIR) for Clinical, Epidemiological and Public Health Research: A Systematic Review",
+      "year": 2021,
+      "authors": [
+        "Carina Nina Vorisek",
+        "Moritz Lehne",
+        "Sophie Anne Inès Klopfenstein"
+      ],
+      "journal": "JMIR Medical Informatics",
+      "doi": "10.2139/ssrn.3919702",
+      "pmid": null,
+      "sources": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "title": "KETOS: Clinical decision support and machine learning as a service – A training and deployment platform based on Docker, OMOP-CDM, and FHIR Web Services",
+      "year": 2019,
+      "authors": [
+        "Julian Gruendner",
+        "Thorsten Schwachhofer",
+        "Phillip Sippl"
+      ],
+      "journal": "PLoS ONE",
+      "doi": "10.1371/journal.pone.0223010",
+      "pmid": null,
+      "sources": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "title": "Large Language Models for Automating Clinical Data Standardization: HL7 FHIR Use Case",
+      "year": 2025,
+      "authors": [
+        "Álvaro I. Riquelme",
+        "Costa, Pedro",
+        "Martinez, Catalina"
+      ],
+      "journal": "arXiv (Cornell University)",
+      "doi": null,
+      "pmid": null,
+      "sources": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "title": "Bridging openEHR and OMOP: Expanded Mappings and Systematic Analysis of Semantic and Structural Limitations in the OMOP CDM",
+      "year": 2026,
+      "authors": [
+        "Severin Kohler",
+        "Diego Boscá",
+        "Falk Meyer-Eschenbach"
+      ],
+      "journal": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2607.27208",
+      "pmid": null,
+      "sources": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "title": "Toward bidirectional FHIR–OMOP CDM transformations using TermX to support the secondary use of real-world health data within a patient-centered digital health paradigm",
+      "year": 2026,
+      "authors": [
+        "Hanna Kätlin Ardel",
+        "Rainer Randmaa",
+        "Igor Bossenko"
+      ],
+      "journal": "Frontiers in Medicine",
+      "doi": "10.3389/fmed.2026.1736785",
+      "pmid": null,
+      "sources": [
+        "OpenAlex"
+      ]
+    },
+    {
+      "title": "recruIT: A cloud-native clinical trial recruitment support system based on Health Level 7 Fast Healthcare Interoperability Resources (HL7 FHIR) and the Observational Medical Outcomes Partnership Common Data Model (OMOP CDM).",
+      "year": "2024",
+      "authors": [
+        "Gulden C",
+        "Macho P",
+        "Reinecke I"
+      ],
+      "journal": "Computers in biology and medicine",
+      "doi": "10.1016/j.compbiomed.2024.108411",
+      "pmid": "38626510",
+      "sources": [
+        "PubMed"
+      ]
+    },
+    {
+      "title": "From Syntactic to Semantic Interoperability Using a Hyperontology in the Oncology Domain.",
+      "year": "2024",
+      "authors": [
+        "El Ghosh M",
+        "Kalokyri V",
+        "Sambres M"
+      ],
+      "journal": "Studies in health technology and informatics",
+      "doi": "10.3233/shti240670",
+      "pmid": "39176639",
+      "sources": [
+        "PubMed"
+      ]
+    },
+    {
+      "title": "Converge or Collide? Making Sense of a Plethora of Open Data Standards in Health Care.",
+      "year": "2024",
+      "authors": [
+        "Tsafnat G",
+        "Dunscombe R",
+        "Gabriel D"
+      ],
+      "journal": "Journal of medical Internet research",
+      "doi": "10.2196/55779",
+      "pmid": "38593431",
+      "sources": [
+        "PubMed"
+      ]
+    },
+    {
+      "title": "Design for a Modular Clinical Trial Recruitment Support System Based on FHIR and OMOP.",
+      "year": "2020",
+      "authors": [
+        "Reinecke I",
+        "Gulden C",
+        "Kümmel M"
+      ],
+      "journal": "Studies in health technology and informatics",
+      "doi": "10.3233/shti200142",
+      "pmid": "32570366",
+      "sources": [
+        "PubMed"
+      ]
+    },
+    {
+      "title": "From OpenEHR to FHIR and OMOP Data Model for Microbiology Findings.",
+      "year": "2021",
+      "authors": [
+        "Rinaldi E",
+        "Thun S"
+      ],
+      "journal": "Studies in health technology and informatics",
+      "doi": "10.3233/shti210189",
+      "pmid": "34042774",
+      "sources": [
+        "PubMed"
+      ]
+    },
+    {
+      "title": "Data Integration into OMOP CDM for Heterogeneous Clinical Data Collections via HL7 FHIR Bundles and XSLT.",
+      "year": "2020",
+      "authors": [
+        "Fischer P",
+        "Stöhr MR",
+        "Gall H"
+      ],
+      "journal": "Studies in health technology and informatics",
+      "doi": "10.3233/shti200138",
+      "pmid": "32570362",
+      "sources": [
+        "PubMed"
+      ]
+    },
+    {
+      "title": "Accelerating Multi-site Health Informatics with Streamlined Data Infrastructure using OMOP-on-FHIR.",
+      "year": "2022",
+      "authors": [
+        "Marteau BL",
+        "Zhu Y",
+        "Giuste F"
+      ],
+      "journal": "Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Annual International Conference",
+      "doi": "10.1109/embc48229.2022.9871865",
+      "pmid": "36085809",
+      "sources": [
+        "PubMed"
+      ]
+    },
+    {
+      "title": "Correction to: A comparison of Fast Healthcare Interoperability Resources and Observational Medical Outcomes Partnership electronic health record data within the All of Us Research Program.",
+      "year": "2026",
+      "authors": [],
+      "journal": "Journal of the American Medical Informatics Association : JAMIA",
+      "doi": "10.1093/jamia/ocag134",
+      "pmid": "42606502",
+      "sources": [
+        "PubMed"
+      ]
+    },
+    {
+      "title": "Harvesting metadata in clinical care: a crosswalk between FHIR, OMOP, CDISC and openEHR metadata.",
+      "year": "2022",
+      "authors": [
+        "Bönisch C",
+        "Kesztyüs D",
+        "Kesztyüs T"
+      ],
+      "journal": "Scientific data",
+      "doi": "10.1038/s41597-022-01792-7",
+      "pmid": "36307424",
+      "sources": [
+        "PubMed"
+      ]
+    }
+  ],
+  "duplicate_log": [
+    {
+      "title": "OMOP-on-FHIR: Integrating the Clinical Data Through FHIR Bundle to OMOP CDM.",
+      "source": "PubMed",
+      "matched_by": "DOI"
+    }
+  ]
+}

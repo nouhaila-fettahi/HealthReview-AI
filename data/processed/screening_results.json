@@ -1,0 +1,288 @@
+{
+  "total_articles": 19,
+  "include": 9,
+  "exclude": 5,
+  "uncertain": 5,
+  "articles": [
+    {
+      "title": "OMOP-on-FHIR: Integrating the Clinical Data Through FHIR Bundle to OMOP CDM",
+      "doi": "10.3233/shti250432",
+      "pmid": "40380541",
+      "abstract_source": "PubMed",
+      "decision": "UNCERTAIN",
+      "reason": "The abstract clearly describes an ETL process linking HL7 FHIR to OMOP CDM and mentions semantic consistency, satisfying several inclusion criteria. However, it does not provide evidence of quantitative or qualitative assessment of data fidelity, performance, or scalability, which is also required for inclusion. Since the abstract lacks this information but does not contain any exclusion criteria, the decision remains uncertain.",
+      "matched_inclusion_criteria": [
+        "Peer‑reviewed journal articles, conference papers, or technical reports.",
+        "Publications from the last 10 years (2014–2024).",
+        "English language.",
+        "Studies that describe, implement, or evaluate ETL processes linking HL7 FHIR to OMOP CDM.",
+        "Works that discuss semantic mapping, terminology alignment, or provenance mechanisms between the two models."
+      ],
+      "matched_exclusion_criteria": [],
+      "supporting_evidence": "The abstract states that the approach \"leverages FHIR Bundles for real-time clinical data exchange and transforms these resources into OMOP CDM format using an ETL process\" and mentions \"maintaining semantic consistency\".",
+      "human_validation": "PENDING"
+    },
+    {
+      "title": "Towards the Representation of Genomic Data in HL7 FHIR and OMOP CDM",
+      "doi": "10.3233/shti210545",
+      "pmid": null,
+      "abstract_source": "OpenAlex",
+      "decision": "INCLUDE",
+      "reason": "The paper describes the creation and quantitative evaluation of a semantic mapping/ETL process linking HL7 FHIR and OMOP CDM for genomic data, meeting the inclusion criteria for ETL implementation and data fidelity assessment. It does not meet any exclusion criteria.",
+      "matched_inclusion_criteria": [
+        "Studies that describe, implement, or evaluate ETL processes linking HL7 FHIR to OMOP CDM.",
+        "Reports that include quantitative or qualitative assessment of data fidelity, performance, or scalability.",
+        "Works that discuss semantic mapping, terminology alignment, or provenance mechanisms between the two models."
+      ],
+      "matched_exclusion_criteria": [],
+      "supporting_evidence": "We have created semantic mapping from raw genomic data to both FHIR ... and OMOP ... and analyzed the data coverage ... calculated the mapping score ... coverage of slightly over 50% ... using FHIR as intermediate representation does not lead to further information loss ... almost 100% success.",
+      "human_validation": "PENDING"
+    },
+    {
+      "title": "MENDS-on-FHIR: leveraging the OMOP common data model and FHIR standards for national chronic disease surveillance",
+      "doi": "10.1093/jamiaopen/ooae045",
+      "pmid": null,
+      "abstract_source": "OpenAlex",
+      "decision": "INCLUDE",
+      "reason": "The article describes the design and implementation of an ETL pipeline that transforms OMOP CDM data into HL7 FHIR resources, evaluates the transformation with quantitative metrics (e.g., <1% non‑compliance, 1.13 trillion resources extracted), and discusses standards‑based interoperability, meeting multiple inclusion criteria and none of the exclusion criteria.",
+      "matched_inclusion_criteria": [
+        "Studies that describe, implement, or evaluate ETL processes linking HL7 FHIR to OMOP CDM.",
+        "Reports that include quantitative or qualitative assessment of data fidelity, performance, or scalability.",
+        "Works that discuss semantic mapping, terminology alignment, or provenance mechanisms between the two models."
+      ],
+      "matched_exclusion_criteria": [],
+      "supporting_evidence": "The abstract states that MENDS‑on‑FHIR \"examined using HL7® FHIR® ... derived from the OMOP Common Data Model (CDM) to create a standards‑based ETL pipeline\" and reports \"a very low rate of non‑compliant resources\" with \"less than a 1% non‑compliance rate\" and \"1.13 trillion resources were extracted\".",
+      "human_validation": "PENDING"
+    },
+    {
+      "title": "FHIR-Ontop-OMOP: Building clinical knowledge graphs in FHIR RDF with the OMOP Common data Model",
+      "doi": "10.1016/j.jbi.2022.104201",
+      "pmid": null,
+      "abstract_source": "OpenAlex",
+      "decision": "INCLUDE",
+      "reason": "The paper describes and evaluates a system that implements an ETL process linking HL7 FHIR to the OMOP CDM, includes quantitative assessment of data fidelity, and discusses semantic mappings between the two models, meeting multiple inclusion criteria and none of the exclusion criteria.",
+      "matched_inclusion_criteria": [
+        "Studies that describe, implement, or evaluate ETL processes linking HL7 FHIR to OMOP CDM.",
+        "Reports that include quantitative or qualitative assessment of data fidelity, performance, or scalability.",
+        "Works that discuss semantic mapping, terminology alignment, or provenance mechanisms between the two models."
+      ],
+      "matched_exclusion_criteria": [],
+      "supporting_evidence": "We developed a system called FHIR-Ontop-OMOP to generate virtual clinical KGs from the OMOP relational databases... Patient counts identified by five pairs of SQL (over the MIMIC database) and SPARQL (over the virtual CKG) queries were identical, ensuring the faithfulness of the data transformation.",
+      "human_validation": "PENDING"
+    },
+    {
+      "title": "Standardizing Healthcare Data for CMS Submission: FHIR, HL7, and Data Warehousing Integration",
+      "doi": "10.63282/3050-9262.ijaidsml-v5i4p127",
+      "pmid": null,
+      "abstract_source": "OpenAlex",
+      "decision": "EXCLUDE",
+      "reason": "The publication describes integration of FHIR/HL7 with data warehousing for CMS reporting but does not address linking HL7 FHIR to the OMOP CDM, which is required by the inclusion criteria. It therefore focuses solely on FHIR/HL7 without the required OMOP interoperability, meeting an exclusion criterion.",
+      "matched_inclusion_criteria": [],
+      "matched_exclusion_criteria": [
+        "Articles focusing solely on either FHIR or OMOP without addressing interoperability."
+      ],
+      "supporting_evidence": "The abstract discusses integration of FHIR, HL7, and data warehouses for CMS reporting, but makes no mention of the OMOP CDM.",
+      "human_validation": "PENDING"
+    },
+    {
+      "title": "Fast Healthcare Interoperability Resources (FHIR) for Clinical, Epidemiological and Public Health Research: A Systematic Review",
+      "doi": "10.2139/ssrn.3919702",
+      "pmid": null,
+      "abstract_source": "OpenAlex",
+      "decision": "EXCLUDE",
+      "reason": "The article is a systematic review of FHIR implementations in health research and does not describe, implement, or evaluate an ETL process linking HL7 FHIR to the OMOP CDM, nor does it assess data fidelity, performance, or scalability of such interoperability. It focuses on FHIR use without addressing FHIR‑OMOP interoperability.",
+      "matched_inclusion_criteria": [],
+      "matched_exclusion_criteria": [
+        "Articles focusing solely on either FHIR or OMOP without addressing interoperability."
+      ],
+      "supporting_evidence": "The abstract states the review \"investigated the use of FHIR in health research\" and reports that only a few studies used a FHIR resource from the public health domain, with no mention of linking FHIR to OMOP CDM.",
+      "human_validation": "PENDING"
+    },
+    {
+      "title": "KETOS: Clinical decision support and machine learning as a service – A training and deployment platform based on Docker, OMOP-CDM, and FHIR Web Services",
+      "doi": "10.1371/journal.pone.0223010",
+      "pmid": null,
+      "abstract_source": "OpenAlex",
+      "decision": "INCLUDE",
+      "reason": "The article describes a platform that implements and evaluates integration between HL7 FHIR and OMOP CDM, includes performance evaluation, and discusses use of standardized vocabularies, meeting multiple inclusion criteria and none of the exclusion criteria.",
+      "matched_inclusion_criteria": [
+        "Peer‑reviewed journal articles, conference papers, or technical reports.",
+        "Publications from the last 10 years (2014–2024).",
+        "English language.",
+        "Studies that describe, implement, or evaluate ETL processes linking HL7 FHIR to OMOP CDM.",
+        "Reports that include quantitative or qualitative assessment of data fidelity, performance, or scalability.",
+        "Works that discuss semantic mapping, terminology alignment, or provenance mechanisms between the two models."
+      ],
+      "matched_exclusion_criteria": [],
+      "supporting_evidence": "The platform \"interfaces with web services using the Health Level 7 (HL7) Fast Healthcare Interoperability Resources (FHIR) standard to access patient data\" and \"uses an OMOP common data model (OMOP‑CDM) database\"; the authors \"evaluated the platform by establishing and deploying an analysis and end user application\" demonstrating performance assessment.",
+      "human_validation": "PENDING"
+    },
+    {
+      "title": "Large Language Models for Automating Clinical Data Standardization: HL7 FHIR Use Case",
+      "doi": null,
+      "pmid": null,
+      "abstract_source": null,
+      "decision": "UNCERTAIN",
+      "reason": "Abstract unavailable. Full-text or additional information is required for screening.",
+      "matched_inclusion_criteria": [],
+      "matched_exclusion_criteria": [],
+      "supporting_evidence": "",
+      "human_validation": "PENDING"
+    },
+    {
+      "title": "Bridging openEHR and OMOP: Expanded Mappings and Systematic Analysis of Semantic and Structural Limitations in the OMOP CDM",
+      "doi": "10.48550/arxiv.2607.27208",
+      "pmid": null,
+      "abstract_source": "OpenAlex",
+      "decision": "EXCLUDE",
+      "reason": "The study focuses on linking openEHR to the OMOP CDM and does not describe, implement, or evaluate an ETL process linking HL7 FHIR to OMOP, which is a required inclusion criterion.",
+      "matched_inclusion_criteria": [],
+      "matched_exclusion_criteria": [],
+      "supporting_evidence": "The abstract describes \"Bridging openEHR and OMOP\" and details mappings between openEHR archetypes and OMOP tables, with no mention of HL7 FHIR.",
+      "human_validation": "PENDING"
+    },
+    {
+      "title": "Toward bidirectional FHIR–OMOP CDM transformations using TermX to support the secondary use of real-world health data within a patient-centered digital health paradigm",
+      "doi": "10.3389/fmed.2026.1736785",
+      "pmid": null,
+      "abstract_source": "OpenAlex",
+      "decision": "EXCLUDE",
+      "reason": "The study uses only synthetic FHIR JSON data and does not validate the transformations on real clinical datasets, which meets the exclusion criterion for studies limited to synthetic or toy datasets without real clinical data validation.",
+      "matched_inclusion_criteria": [
+        "Studies that describe, implement, or evaluate ETL processes linking HL7 FHIR to OMOP CDM.",
+        "Reports that include quantitative or qualitative assessment of data fidelity, performance, or scalability.",
+        "Works that discuss semantic mapping, terminology alignment, or provenance mechanisms between the two models."
+      ],
+      "matched_exclusion_criteria": [
+        "Studies limited to synthetic or toy datasets without real clinical data validation."
+      ],
+      "supporting_evidence": "The focus of this work is primarily on methodological mapping rather than processing real‑world datasets; the evaluation concentrates on mapping coverage... Using synthetical FHIR JSON data...",
+      "human_validation": "PENDING"
+    },
+    {
+      "title": "recruIT: A cloud-native clinical trial recruitment support system based on Health Level 7 Fast Healthcare Interoperability Resources (HL7 FHIR) and the Observational Medical Outcomes Partnership Common Data Model (OMOP CDM).",
+      "doi": "10.1016/j.compbiomed.2024.108411",
+      "pmid": "38626510",
+      "abstract_source": "PubMed",
+      "decision": "INCLUDE",
+      "reason": "The paper describes the design and implementation of a system that integrates HL7 FHIR with the OMOP CDM to support clinical trial recruitment, fulfilling the inclusion criterion of describing/implementing an ETL or interoperability solution between the two models. It also provides a quantitative usability evaluation (SUS score), meeting the criterion for quantitative assessment. No exclusion criteria are met.",
+      "matched_inclusion_criteria": [
+        "Studies that describe, implement, or evaluate ETL processes linking HL7 FHIR to OMOP CDM.",
+        "Reports that include quantitative or qualitative assessment of data fidelity, performance, or scalability."
+      ],
+      "matched_exclusion_criteria": [],
+      "supporting_evidence": "based on Health Level 7 (HL7) Fast Healthcare Interoperability Resources (FHIR) as an interoperability standard with the Observational Medical Outcomes Partnership (OMOP) Common Data Model (CDM) being used as a source of patient data... End‑users (n = 19) rated the system with a SUS score of 79.9/100.",
+      "human_validation": "PENDING"
+    },
+    {
+      "title": "From Syntactic to Semantic Interoperability Using a Hyperontology in the Oncology Domain.",
+      "doi": "10.3233/shti240670",
+      "pmid": "39176639",
+      "abstract_source": "PubMed",
+      "decision": "UNCERTAIN",
+      "reason": "The abstract discusses semantic interoperability using a hyperontology for oncology and mentions OMOP and FHIR standards, but it does not describe, implement, or evaluate an ETL process linking HL7 FHIR to the OMOP CDM, nor does it provide quantitative or qualitative assessment of data fidelity, performance, or scalability. Therefore there is insufficient evidence to determine if the study meets the required inclusion criteria, and no clear exclusion criteria are met.",
+      "matched_inclusion_criteria": [],
+      "matched_exclusion_criteria": [],
+      "supporting_evidence": "The abstract states that \"OMOP and FHIR data standards handle syntactic heterogeneity... ontologies support semantic interoperability...\" but provides no mention of an ETL pipeline or evaluation metrics.",
+      "human_validation": "PENDING"
+    },
+    {
+      "title": "Converge or Collide? Making Sense of a Plethora of Open Data Standards in Health Care.",
+      "doi": "10.2196/55779",
+      "pmid": "38593431",
+      "abstract_source": "PubMed",
+      "decision": "EXCLUDE",
+      "reason": "The article presents a conceptual framework about open data standards in health care and does not describe, implement, or evaluate an ETL process linking HL7 FHIR to OMOP CDM, nor does it provide empirical assessment of data fidelity, performance, or scalability. It appears to be a non‑technical discussion without empirical data, matching the exclusion criterion for opinion pieces or commentaries.",
+      "matched_inclusion_criteria": [],
+      "matched_exclusion_criteria": [
+        "Non‑technical opinion pieces, editorials, or commentaries without empirical data."
+      ],
+      "supporting_evidence": "The abstract describes a framework for understanding health care data needs and discusses challenges of open data standards, but provides no mention of FHIR, OMOP, ETL processes, or empirical evaluation.",
+      "human_validation": "PENDING"
+    },
+    {
+      "title": "Design for a Modular Clinical Trial Recruitment Support System Based on FHIR and OMOP.",
+      "doi": "10.3233/shti200142",
+      "pmid": "32570366",
+      "abstract_source": "PubMed",
+      "decision": "UNCERTAIN",
+      "reason": "The abstract describes a modular recruitment support system that uses both FHIR and OMOP, but it does not provide evidence of an ETL process linking the two models, nor does it report quantitative or qualitative assessment of data fidelity, performance, or scalability, which are required by the inclusion criteria. At the same time, the paper does not clearly fall under any exclusion criteria such as focusing on only one model or being a non‑technical opinion piece.",
+      "matched_inclusion_criteria": [],
+      "matched_exclusion_criteria": [],
+      "supporting_evidence": "The abstract mentions \"open standards for interoperability (FHIR)\" and \"OMOP CDM\" and shows the modular structure of the prototype, but provides no details on ETL linking FHIR to OMOP or any performance/fidelity evaluation.",
+      "human_validation": "PENDING"
+    },
+    {
+      "title": "From OpenEHR to FHIR and OMOP Data Model for Microbiology Findings.",
+      "doi": "10.3233/shti210189",
+      "pmid": "34042774",
+      "abstract_source": "PubMed",
+      "decision": "INCLUDE",
+      "reason": "The article describes the implementation of mapping infection‑control data from openEHR to FHIR and then to the OMOP CDM, thereby addressing an ETL process linking HL7 FHIR to OMOP. It is in English, appears to be a recent technical report, and discusses semantic mapping across the three standards.",
+      "matched_inclusion_criteria": [
+        "Studies that describe, implement, or evaluate ETL processes linking HL7 FHIR to OMOP CDM.",
+        "Works that discuss semantic mapping, terminology alignment, or provenance mechanisms between the two models."
+      ],
+      "matched_exclusion_criteria": [],
+      "supporting_evidence": "We mapped the openEHR information to the Fast Healthcare Interoperability Resources (FHIR) format... we subsequently mapped the FHIR elements to the Observational Medical Outcomes Partnership Common Data Model (OMOP CDM).",
+      "human_validation": "PENDING"
+    },
+    {
+      "title": "Data Integration into OMOP CDM for Heterogeneous Clinical Data Collections via HL7 FHIR Bundles and XSLT.",
+      "doi": "10.3233/shti200138",
+      "pmid": "32570362",
+      "abstract_source": "PubMed",
+      "decision": "INCLUDE",
+      "reason": "The abstract describes a technical implementation of an ETL process that transforms heterogeneous clinical data from a German pulmonary hypertension registry (real clinical data) into the OMOP CDM using HL7 FHIR bundles and XSLT, includes mapping to standard terminologies, and reports on successful transformation and feasibility, satisfying multiple inclusion criteria and none of the exclusion criteria.",
+      "matched_inclusion_criteria": [
+        "Studies that describe, implement, or evaluate ETL processes linking HL7 FHIR to OMOP CDM.",
+        "Reports that include quantitative or qualitative assessment of data fidelity, performance, or scalability.",
+        "Works that discuss semantic mapping, terminology alignment, or provenance mechanisms between the two models."
+      ],
+      "matched_exclusion_criteria": [],
+      "supporting_evidence": "We successfully transformed the majority of data elements to the OMOP CDM in a feasible time... Data was extracted as HL7 FHIR Bundle to be transformed to OMOP CDM by using XSLT... mapped to standardized terminologies like LOINC or SNOMED-CT.",
+      "human_validation": "PENDING"
+    },
+    {
+      "title": "Accelerating Multi-site Health Informatics with Streamlined Data Infrastructure using OMOP-on-FHIR.",
+      "doi": "10.1109/embc48229.2022.9871865",
+      "pmid": "36085809",
+      "abstract_source": "PubMed",
+      "decision": "INCLUDE",
+      "reason": "The paper describes the implementation of an ETL process that converts OMOP CDM data into HL7 FHIR resources using OMOP-on-FHIR, directly addressing interoperability between the two models.",
+      "matched_inclusion_criteria": [
+        "Studies that describe, implement, or evaluate ETL processes linking HL7 FHIR to OMOP CDM.",
+        "Works that discuss semantic mapping, terminology alignment, or provenance mechanisms between the two models."
+      ],
+      "matched_exclusion_criteria": [],
+      "supporting_evidence": "we converted existing data in the Observational Medical Outcomes Partnership (OMOP) Common Data Model (CDM) standard into FHIR data elements using a technology called OMOP-on-FHIR.",
+      "human_validation": "PENDING"
+    },
+    {
+      "title": "Correction to: A comparison of Fast Healthcare Interoperability Resources and Observational Medical Outcomes Partnership electronic health record data within the All of Us Research Program.",
+      "doi": "10.1093/jamia/ocag134",
+      "pmid": "42606502",
+      "abstract_source": null,
+      "decision": "UNCERTAIN",
+      "reason": "Abstract unavailable. Full-text or additional information is required for screening.",
+      "matched_inclusion_criteria": [],
+      "matched_exclusion_criteria": [],
+      "supporting_evidence": "",
+      "human_validation": "PENDING"
+    },
+    {
+      "title": "Harvesting metadata in clinical care: a crosswalk between FHIR, OMOP, CDISC and openEHR metadata.",
+      "doi": "10.1038/s41597-022-01792-7",
+      "pmid": "36307424",
+      "abstract_source": "PubMed",
+      "decision": "INCLUDE",
+      "reason": "The paper describes a metadata crosswalk that maps and aligns semantics between HL7 FHIR and OMOP CDM, fulfilling the inclusion criterion for works discussing semantic mapping between the two models. It does not meet any exclusion criteria.",
+      "matched_inclusion_criteria": [
+        "Works that discuss semantic mapping, terminology alignment, or provenance mechanisms between the two models."
+      ],
+      "matched_exclusion_criteria": [],
+      "supporting_evidence": "metadata crosswalk ... between FHIR, OMOP, CDISC and openEHR metadata.",
+      "human_validation": "PENDING"
+    }
+  ]
+}

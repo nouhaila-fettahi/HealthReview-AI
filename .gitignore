@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.key
+*secret*
+
+# IDE and system
+.vscode/
+.DS_Store
+*.log
+
+# Large local datasets and vector database
+data/raw/
+data/vectorstore/
+
+# Temporary audit files
+/*.txt
+data/processed/*_audit.txt
+data/processed/*_check.txt
+data/processed/*_log.txt
+data/processed/*_results.txt
+
+# Local audit and diagnostic outputs
+data/processed/*.txt
+
+# Backup files
+*backup*
+*.bak
+*.pre_year_sync.bak
+data/papers/

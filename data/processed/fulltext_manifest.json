@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Towards the Representation of Genomic Data in HL7 FHIR and OMOP CDM",
+    "decision": "INCLUDE",
+    "pmcid": null,
+    "status": "NO_OPEN_FULL_TEXT",
+    "file": null,
+    "error": null
+  },
+  {
+    "title": "MENDS-on-FHIR: leveraging the OMOP common data model and FHIR standards for national chronic disease surveillance",
+    "decision": "INCLUDE",
+    "pmcid": "PMC11137321",
+    "status": "DOWNLOADED",
+    "file": "data/papers/xml/MENDS_on_FHIR_leveraging_the_OMOP_common_data_model_and_FHIR_standards_for_national_chroni.xml",
+    "error": null
+  },
+  {
+    "title": "FHIR-Ontop-OMOP: Building clinical knowledge graphs in FHIR RDF with the OMOP Common data Model",
+    "decision": "INCLUDE",
+    "pmcid": "PMC9561043",
+    "status": "ERROR",
+    "file": null,
+    "error": "500 Server Error:  for url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9561043/fullTextXML"
+  },
+  {
+    "title": "KETOS: Clinical decision support and machine learning as a service – A training and deployment platform based on Docker, OMOP-CDM, and FHIR Web Services",
+    "decision": "UNCERTAIN",
+    "pmcid": "PMC6776354",
+    "status": "DOWNLOADED",
+    "file": "data/papers/xml/KETOS_Clinical_decision_support_and_machine_learning_as_a_service_A_training_and_deploymen.xml",
+    "error": null
+  },
+  {
+    "title": "recruIT: A cloud-native clinical trial recruitment support system based on Health Level 7 Fast Healthcare Interoperability Resources (HL7 FHIR) and the Observational Medical Outcomes Partnership Common Data Model (OMOP CDM).",
+    "decision": "UNCERTAIN",
+    "pmcid": null,
+    "status": "NO_OPEN_FULL_TEXT",
+    "file": null,
+    "error": null
+  },
+  {
+    "title": "Design for a Modular Clinical Trial Recruitment Support System Based on FHIR and OMOP.",
+    "decision": "UNCERTAIN",
+    "pmcid": null,
+    "status": "NO_OPEN_FULL_TEXT",
+    "file": null,
+    "error": null
+  },
+  {
+    "title": "From OpenEHR to FHIR and OMOP Data Model for Microbiology Findings.",
+    "decision": "INCLUDE",
+    "pmcid": null,
+    "status": "NO_OPEN_FULL_TEXT",
+    "file": null,
+    "error": null
+  },
+  {
+    "title": "Data Integration into OMOP CDM for Heterogeneous Clinical Data Collections via HL7 FHIR Bundles and XSLT.",
+    "decision": "INCLUDE",
+    "pmcid": null,
+    "status": "NO_OPEN_FULL_TEXT",
+    "file": null,
+    "error": null
+  },
+  {
+    "title": "Harvesting metadata in clinical care: a crosswalk between FHIR, OMOP, CDISC and openEHR metadata.",
+    "decision": "UNCERTAIN",
+    "pmcid": "PMC9616884",
+    "status": "DOWNLOADED",
+    "file": "data/papers/xml/Harvesting_metadata_in_clinical_care_a_crosswalk_between_FHIR_OMOP_CDISC_and_openEHR_metad.xml",
+    "error": null
+  }
+]

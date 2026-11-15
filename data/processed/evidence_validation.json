@@ -1,0 +1,586 @@
+{
+  "total_evidence": 64,
+  "statistics": {
+    "NO_CHUNK_ID": 37,
+    "NOT_FOUND": 11,
+    "EXACT": 16
+  },
+  "evidence": [
+    {
+      "article_title": "Towards the Representation of Genomic Data in HL7 FHIR and OMOP CDM",
+      "doi": "10.3233/shti210545",
+      "source_type": "ABSTRACT",
+      "claim": "Semantic mapping from raw genomic data to both FHIR and OMOP CDM was created and data coverage analyzed.",
+      "quote": "we have created semantic mapping from raw genomic data to both FHIR (Fast Healthcare Interoperability Resources) and OMOP (Observational Medical Outcomes Partnership) CDM (Common Data Model) and analyzed the data coverage of both models.",
+      "chunk_id": null,
+      "validation_status": "NO_CHUNK_ID"
+    },
+    {
+      "article_title": "Towards the Representation of Genomic Data in HL7 FHIR and OMOP CDM",
+      "doi": "10.3233/shti210545",
+      "source_type": "ABSTRACT",
+      "claim": "Mapping scores and relative data coverage were calculated for different data categories.",
+      "quote": "we calculated the mapping score for different data categories and the relative data coverage in both FHIR and OMOP CDM.",
+      "chunk_id": null,
+      "validation_status": "NO_CHUNK_ID"
+    },
+    {
+      "article_title": "Towards the Representation of Genomic Data in HL7 FHIR and OMOP CDM",
+      "doi": "10.3233/shti210545",
+      "source_type": "ABSTRACT",
+      "claim": "Direct mapping of patient genomic data to OMOP CDM from VCF files achieves slightly over 50% coverage.",
+      "quote": "Our results show, that the patients genomic data can be mapped to OMOP CDM directly from VCF (Variant Call Format) file with a coverage of slightly over 50%.",
+      "chunk_id": null,
+      "validation_status": "NO_CHUNK_ID"
+    },
+    {
+      "article_title": "Towards the Representation of Genomic Data in HL7 FHIR and OMOP CDM",
+      "doi": "10.3233/shti210545",
+      "source_type": "ABSTRACT",
+      "claim": "Using FHIR as an intermediate representation results in almost 100% successful transformation to OMOP CDM.",
+      "quote": "However, using FHIR as intermediate representation does not lead to further information loss as the already stored data in FHIR can be further transformed into OMOP CDM format with almost 100% success.",
+      "chunk_id": null,
+      "validation_status": "NO_CHUNK_ID"
+    },
+    {
+      "article_title": "Towards the Representation of Genomic Data in HL7 FHIR and OMOP CDM",
+      "doi": "10.3233/shti210545",
+      "source_type": "ABSTRACT",
+      "claim": "Extending OMOP CDM with patient genomic data via ETL enables application of machine learning algorithms.",
+      "quote": "Our findings are in favor of extending OMOP CDM with patient genomic data using ETL to enable the researchers to apply different analysis methods including machine learning algorithms on genomic data.",
+      "chunk_id": null,
+      "validation_status": "NO_CHUNK_ID"
+    },
+    {
+      "article_title": "FHIR-Ontop-OMOP: Building clinical knowledge graphs in FHIR RDF with the OMOP Common data Model",
+      "doi": "10.1016/j.jbi.2022.104201",
+      "source_type": "ABSTRACT",
+      "claim": "Research objective is to develop and evaluate methods and tools that expose OMOP CDM repositories as virtual clinical KGs compliant with FHIR RDF.",
+      "quote": "OBJECTIVE: To develop and evaluate methods and tools that expose the OMOP CDM-based clinical data repositories into virtual clinical KGs that are compliant with FHIR Resource Description Framework (RDF) specification.",
+      "chunk_id": null,
+      "validation_status": "NO_CHUNK_ID"
+    },
+    {
+      "article_title": "FHIR-Ontop-OMOP: Building clinical knowledge graphs in FHIR RDF with the OMOP Common data Model",
+      "doi": "10.1016/j.jbi.2022.104201",
+      "source_type": "ABSTRACT",
+      "claim": "The study leverages community-based standards FHIR and OMOP CDM.",
+      "quote": "From the standardization perspective, community-based standards such as the Fast Healthcare Interoperability Resources (FHIR) and the Observational Medical Outcomes Partnership (OMOP) Common Data Model (CDM) are increasingly used to represent and standardize EHR data for clinical data analytics",
+      "chunk_id": null,
+      "validation_status": "NO_CHUNK_ID"
+    },
+    {
+      "article_title": "FHIR-Ontop-OMOP: Building clinical knowledge graphs in FHIR RDF with the OMOP Common data Model",
+      "doi": "10.1016/j.jbi.2022.104201",
+      "source_type": "ABSTRACT",
+      "claim": "System architecture generates virtual clinical KGs from OMOP relational databases using Ontop.",
+      "quote": "We developed a system called FHIR-Ontop-OMOP to generate virtual clinical KGs from the OMOP relational databases.",
+      "chunk_id": null,
+      "validation_status": "NO_CHUNK_ID"
+    },
+    {
+      "article_title": "FHIR-Ontop-OMOP: Building clinical knowledge graphs in FHIR RDF with the OMOP Common data Model",
+      "doi": "10.1016/j.jbi.2022.104201",
+      "source_type": "ABSTRACT",
+      "claim": "The system was evaluated using an OMOP CDM‑based MIMIC‑III data repository.",
+      "quote": "We leveraged an OMOP CDM-based Medical Information Mart for Intensive Care (MIMIC-III) data repository to evaluate the FHIR-Ontop-OMOP system",
+      "chunk_id": null,
+      "validation_status": "NO_CHUNK_ID"
+    },
+    {
+      "article_title": "FHIR-Ontop-OMOP: Building clinical knowledge graphs in FHIR RDF with the OMOP Common data Model",
+      "doi": "10.1016/j.jbi.2022.104201",
+      "source_type": "ABSTRACT",
+      "claim": "More than 100 data element mappings covering 11 FHIR resources were implemented.",
+      "quote": "A total of more than 100 data element mappings from 11 OMOP CDM clinical data, health system and vocabulary tables were implemented in the system, covering 11 FHIR resources.",
+      "chunk_id": null,
+      "validation_status": "NO_CHUNK_ID"
+    },
+    {
+      "article_title": "FHIR-Ontop-OMOP: Building clinical knowledge graphs in FHIR RDF with the OMOP Common data Model",
+      "doi": "10.1016/j.jbi.2022.104201",
+      "source_type": "ABSTRACT",
+      "claim": "Patient counts from SQL and SPARQL queries were identical, ensuring faithful transformation.",
+      "quote": "Patient counts identified by five pairs of SQL (over the MIMIC database) and SPARQL (over the virtual CKG) queries were identical, ensuring the faithfulness of the data transformation.",
+      "chunk_id": null,
+      "validation_status": "NO_CHUNK_ID"
+    },
+    {
+      "article_title": "FHIR-Ontop-OMOP: Building clinical knowledge graphs in FHIR RDF with the OMOP Common data Model",
+      "doi": "10.1016/j.jbi.2022.104201",
+      "source_type": "ABSTRACT",
+      "claim": "RDF triples for 100 patients were fully conformant with the FHIR RDF specification.",
+      "quote": "Generated CKG in RDF triples for 100 patients were fully conformant with the FHIR RDF specification.",
+      "chunk_id": null,
+      "validation_status": "NO_CHUNK_ID"
+    },
+    {
+      "article_title": "FHIR-Ontop-OMOP: Building clinical knowledge graphs in FHIR RDF with the OMOP Common data Model",
+      "doi": "10.1016/j.jbi.2022.104201",
+      "source_type": "ABSTRACT",
+      "claim": "The generated virtual KG contains large numbers of FHIR resource instances.",
+      "quote": "The generated virtual CKG from MIMIC-III contains 46,520 instances of FHIR Patient, 716,595 instances of Condition, 1,063,525 instances of Procedure, 24,934,751 instances of MedicationStatement, 365,181,104 instances of Observations, and 4,779,672 instances of CodeableConcept.",
+      "chunk_id": null,
+      "validation_status": "NO_CHUNK_ID"
+    },
+    {
+      "article_title": "recruIT: A cloud-native clinical trial recruitment support system based on Health Level 7 Fast Healthcare Interoperability Resources (HL7 FHIR) and the Observational Medical Outcomes Partnership Common Data Model (OMOP CDM).",
+      "doi": "10.1016/j.compbiomed.2024.108411",
+      "source_type": "ABSTRACT",
+      "claim": "The study aimed to design and implement a novel, open-source software system to support clinical trial recruitment by generating automatic recruitment recommendations.",
+      "quote": "We designed and implemented a novel, open-source software system to support the recruitment process in clinical trials by generating automatic recruitment recommendations.",
+      "chunk_id": null,
+      "validation_status": "NO_CHUNK_ID"
+    },
+    {
+      "article_title": "recruIT: A cloud-native clinical trial recruitment support system based on Health Level 7 Fast Healthcare Interoperability Resources (HL7 FHIR) and the Observational Medical Outcomes Partnership Common Data Model (OMOP CDM).",
+      "doi": "10.1016/j.compbiomed.2024.108411",
+      "source_type": "ABSTRACT",
+      "claim": "The system is based on HL7 FHIR as an interoperability standard and uses the OMOP Common Data Model as a source of patient data.",
+      "quote": "The development is guided by modern, cloud-native design principles and based on Health Level 7 (HL7) Fast Healthcare Interoperability Resources (FHIR) as an interoperability standard with the Observational Medical Outcomes Partnership (OMOP) Common Data Model (CDM) being used as a source of patient data.",
+      "chunk_id": null,
+      "validation_status": "NO_CHUNK_ID"
+    },
+    {
+      "article_title": "recruIT: A cloud-native clinical trial recruitment support system based on Health Level 7 Fast Healthcare Interoperability Resources (HL7 FHIR) and the Observational Medical Outcomes Partnership Common Data Model (OMOP CDM).",
+      "doi": "10.1016/j.compbiomed.2024.108411",
+      "source_type": "ABSTRACT",
+      "claim": "All service interactions use HL7 FHIR as the communication standard.",
+      "quote": "All interactions between services use HL7 FHIR as the communication standard.",
+      "chunk_id": null,
+      "validation_status": "NO_CHUNK_ID"
+    },
+    {
+      "article_title": "recruIT: A cloud-native clinical trial recruitment support system based on Health Level 7 Fast Healthcare Interoperability Resources (HL7 FHIR) and the Observational Medical Outcomes Partnership Common Data Model (OMOP CDM).",
+      "doi": "10.1016/j.compbiomed.2024.108411",
+      "source_type": "ABSTRACT",
+      "claim": "The implementation uses the OMOP CDM as a repository of patient data that is continuously queried for possible trial candidates.",
+      "quote": "The implementation is based on the OMOP CDM as a repository of patient data that is continuously queried for possible trial candidates based on given clinical trial eligibility criteria.",
+      "chunk_id": null,
+      "validation_status": "NO_CHUNK_ID"
+    },
+    {
+      "article_title": "recruIT: A cloud-native clinical trial recruitment support system based on Health Level 7 Fast Healthcare Interoperability Resources (HL7 FHIR) and the Observational Medical Outcomes Partnership Common Data Model (OMOP CDM).",
+      "doi": "10.1016/j.compbiomed.2024.108411",
+      "source_type": "ABSTRACT",
+      "claim": "A web-based screening list displays candidates and email notifications about possible new trial participants can be sent automatically.",
+      "quote": "A web-based screening list can be used to display the candidates and email notifications about possible new trial participants can be sent automatically.",
+      "chunk_id": null,
+      "validation_status": "NO_CHUNK_ID"
+    },
+    {
+      "article_title": "recruIT: A cloud-native clinical trial recruitment support system based on Health Level 7 Fast Healthcare Interoperability Resources (HL7 FHIR) and the Observational Medical Outcomes Partnership Common Data Model (OMOP CDM).",
+      "doi": "10.1016/j.compbiomed.2024.108411",
+      "source_type": "ABSTRACT",
+      "claim": "The system can be installed using standard container technology and supports deployments on Kubernetes clusters.",
+      "quote": "The system can be installed using standard container technology and supports more sophisticated deployments on Kubernetes clusters.",
+      "chunk_id": null,
+      "validation_status": "NO_CHUNK_ID"
+    },
+    {
+      "article_title": "recruIT: A cloud-native clinical trial recruitment support system based on Health Level 7 Fast Healthcare Interoperability Resources (HL7 FHIR) and the Observational Medical Outcomes Partnership Common Data Model (OMOP CDM).",
+      "doi": "10.1016/j.compbiomed.2024.108411",
+      "source_type": "ABSTRACT",
+      "claim": "Usability was evaluated using the System Usability Scale (SUS) with end‑users rating the system 79.9/100.",
+      "quote": "End-users (n = 19) rated the system with a SUS score of 79.9/100.",
+      "chunk_id": null,
+      "validation_status": "NO_CHUNK_ID"
+    },
+    {
+      "article_title": "recruIT: A cloud-native clinical trial recruitment support system based on Health Level 7 Fast Healthcare Interoperability Resources (HL7 FHIR) and the Observational Medical Outcomes Partnership Common Data Model (OMOP CDM).",
+      "doi": "10.1016/j.compbiomed.2024.108411",
+      "source_type": "ABSTRACT",
+      "claim": "According to the SUS score, the system provides good usability.",
+      "quote": "According to the SUS score, the system provides good usability.",
+      "chunk_id": null,
+      "validation_status": "NO_CHUNK_ID"
+    },
+    {
+      "article_title": "From OpenEHR to FHIR and OMOP Data Model for Microbiology Findings.",
+      "doi": "10.3233/shti210189",
+      "source_type": "ABSTRACT",
+      "claim": "The HiGHmed Use Case Infection Control group has modelled a set of infection-related data in the openEHR format.",
+      "quote": "The HiGHmed Use Case Infection Control group has modelled a set of infection-related data in the openEHR format.",
+      "chunk_id": null,
+      "validation_status": "NO_CHUNK_ID"
+    },
+    {
+      "article_title": "From OpenEHR to FHIR and OMOP Data Model for Microbiology Findings.",
+      "doi": "10.3233/shti210189",
+      "source_type": "ABSTRACT",
+      "claim": "The openEHR information was mapped to the Fast Healthcare Interoperability Resources (FHIR) format.",
+      "quote": "we mapped the openEHR information to the Fast Healthcare Interoperability Resources (FHIR) format recommended within the initiative.",
+      "chunk_id": null,
+      "validation_status": "NO_CHUNK_ID"
+    },
+    {
+      "article_title": "From OpenEHR to FHIR and OMOP Data Model for Microbiology Findings.",
+      "doi": "10.3233/shti210189",
+      "source_type": "ABSTRACT",
+      "claim": "FHIR enables fast exchange of data thanks to the discrete and independent data elements into which information is organized.",
+      "quote": "FHIR enables fast exchange of data thanks to the discrete and independent data elements into which information is organized.",
+      "chunk_id": null,
+      "validation_status": "NO_CHUNK_ID"
+    },
+    {
+      "article_title": "From OpenEHR to FHIR and OMOP Data Model for Microbiology Findings.",
+      "doi": "10.3233/shti210189",
+      "source_type": "ABSTRACT",
+      "claim": "The FHIR elements were subsequently mapped to the Observational Medical Outcomes Partnership Common Data Model (OMOP CDM).",
+      "quote": "we subsequently mapped the FHIR elements to the Observational Medical Outcomes Partnership Common Data Model (OMOP CDM).",
+      "chunk_id": null,
+      "validation_status": "NO_CHUNK_ID"
+    },
+    {
+      "article_title": "From OpenEHR to FHIR and OMOP Data Model for Microbiology Findings.",
+      "doi": "10.3233/shti210189",
+      "source_type": "ABSTRACT",
+      "claim": "The OMOP data model is designed to support research to identify and evaluate associations between interventions and outcomes caused by these interventions.",
+      "quote": "The OMOP data model is designed to support the conduct of research to identify and evaluate associations between interventions and outcomes caused by these interventions.",
+      "chunk_id": null,
+      "validation_status": "NO_CHUNK_ID"
+    },
+    {
+      "article_title": "From OpenEHR to FHIR and OMOP Data Model for Microbiology Findings.",
+      "doi": "10.3233/shti210189",
+      "source_type": "ABSTRACT",
+      "claim": "Mapping across standards allows exploitation of their peculiarities while establishing and/or maintaining interoperability.",
+      "quote": "Mapping across standard allows to exploit their peculiarities while establishing and/or maintaining interoperability.",
+      "chunk_id": null,
+      "validation_status": "NO_CHUNK_ID"
+    },
+    {
+      "article_title": "From OpenEHR to FHIR and OMOP Data Model for Microbiology Findings.",
+      "doi": "10.3233/shti210189",
+      "source_type": "ABSTRACT",
+      "claim": "The article provides an overview of the experience in mapping infection control related data across openEHR, FHIR, and OMOP CDM.",
+      "quote": "This article provides an overview of our experience in mapping infection control related data across three different standards openEHR, FHIR and OMOP CDM.",
+      "chunk_id": null,
+      "validation_status": "NO_CHUNK_ID"
+    },
+    {
+      "article_title": "Data Integration into OMOP CDM for Heterogeneous Clinical Data Collections via HL7 FHIR Bundles and XSLT.",
+      "doi": "10.3233/shti200138",
+      "source_type": "ABSTRACT",
+      "claim": "The aim was to integrate heterogeneous data from a German pulmonary hypertension registry into an OMOP CDM using HL7 FHIR as an intermediate format.",
+      "quote": "By introducing HL7 FHIR as an intermediate format, our aim was to integrate heterogeneous data from a German pulmonary hypertension registry into an OMOP Common Data Model.",
+      "chunk_id": null,
+      "validation_status": "NO_CHUNK_ID"
+    },
+    {
+      "article_title": "Data Integration into OMOP CDM for Heterogeneous Clinical Data Collections via HL7 FHIR Bundles and XSLT.",
+      "doi": "10.3233/shti200138",
+      "source_type": "ABSTRACT",
+      "claim": "Domain experts mapped parameters to standardized terminologies like LOINC and SNOMED-CT.",
+      "quote": "First, domain knowledge experts defined a common parameter set, which was subsequently mapped to standardized terminologies like LOINC or SNOMED-CT.",
+      "chunk_id": null,
+      "validation_status": "NO_CHUNK_ID"
+    },
+    {
+      "article_title": "Data Integration into OMOP CDM for Heterogeneous Clinical Data Collections via HL7 FHIR Bundles and XSLT.",
+      "doi": "10.3233/shti200138",
+      "source_type": "ABSTRACT",
+      "claim": "Data was extracted as HL7 FHIR Bundles and transformed to OMOP CDM using XSLT.",
+      "quote": "Data was extracted as HL7 FHIR Bundle to be transformed to OMOP CDM by using XSLT.",
+      "chunk_id": null,
+      "validation_status": "NO_CHUNK_ID"
+    },
+    {
+      "article_title": "Data Integration into OMOP CDM for Heterogeneous Clinical Data Collections via HL7 FHIR Bundles and XSLT.",
+      "doi": "10.3233/shti200138",
+      "source_type": "ABSTRACT",
+      "claim": "The majority of data elements were successfully transformed to the OMOP CDM in a feasible time.",
+      "quote": "We successfully transformed the majority of data elements to the OMOP CDM in a feasible time.",
+      "chunk_id": null,
+      "validation_status": "NO_CHUNK_ID"
+    },
+    {
+      "article_title": "Accelerating Multi-site Health Informatics with Streamlined Data Infrastructure using OMOP-on-FHIR.",
+      "doi": "10.1109/embc48229.2022.9871865",
+      "source_type": "ABSTRACT",
+      "claim": "Access to clinical data was enabled via FHIR, decreasing the burden of data access.",
+      "quote": "We decreased this burden by allowing access to clinical data via the standardized data access standard called FHIR (Fast Healthcare Interoperability Resources).",
+      "chunk_id": null,
+      "validation_status": "NO_CHUNK_ID"
+    },
+    {
+      "article_title": "Accelerating Multi-site Health Informatics with Streamlined Data Infrastructure using OMOP-on-FHIR.",
+      "doi": "10.1109/embc48229.2022.9871865",
+      "source_type": "ABSTRACT",
+      "claim": "Existing OMOP CDM data were successfully converted into FHIR data elements using OMOP-on-FHIR.",
+      "quote": "Specifically, we converted existing data in the Observational Medical Outcomes Partnership (OMOP) Common Data Model (CDM) standard into FHIR data elements using a technology called OMOP-on-FHIR.",
+      "chunk_id": null,
+      "validation_status": "NO_CHUNK_ID"
+    },
+    {
+      "article_title": "Accelerating Multi-site Health Informatics with Streamlined Data Infrastructure using OMOP-on-FHIR.",
+      "doi": "10.1109/embc48229.2022.9871865",
+      "source_type": "ABSTRACT",
+      "claim": "Two applications were developed that leverage FHIR data elements for patient cohort curation in pediatric musculoskeletal disease research.",
+      "quote": "In addition, we developed two applications leveraging the FHIR data elements to facilitate patient cohort curation to advance research into pediatric musculoskeletal diseases.",
+      "chunk_id": null,
+      "validation_status": "NO_CHUNK_ID"
+    },
+    {
+      "article_title": "Accelerating Multi-site Health Informatics with Streamlined Data Infrastructure using OMOP-on-FHIR.",
+      "doi": "10.1109/embc48229.2022.9871865",
+      "source_type": "ABSTRACT",
+      "claim": "Clinicians and researchers can now use hundreds of open‑sourced FHIR applications.",
+      "quote": "Our work enables clinicians and clinical researchers to use hundreds of currently available open-sourced FHIR applications.",
+      "chunk_id": null,
+      "validation_status": "NO_CHUNK_ID"
+    },
+    {
+      "article_title": "Accelerating Multi-site Health Informatics with Streamlined Data Infrastructure using OMOP-on-FHIR.",
+      "doi": "10.1109/embc48229.2022.9871865",
+      "source_type": "ABSTRACT",
+      "claim": "Implementation of OMOP-on-FHIR within a large hospital system is expected to accelerate pediatric disease treatment and research.",
+      "quote": "Our successful implementation of OMOP-on-FHIR within a large hospital system will accelerate advancements in pediatric disease treatment and research.",
+      "chunk_id": null,
+      "validation_status": "NO_CHUNK_ID"
+    },
+    {
+      "article_title": "MENDS-on-FHIR: leveraging the OMOP common data model and FHIR standards for national chronic disease surveillance",
+      "doi": "10.1093/jamiaopen/ooae045",
+      "source_type": "FULL_TEXT",
+      "claim": "The study addresses the urgent need for rapid access to clinical data for chronic disease surveillance.",
+      "quote": "The COVID-19 pandemic highlighted the urgent need for rapid access to clinical data from diverse settings to assess emerging risk factors and treatment outcomes... Similarly, chronic disease surveillance registries need timely access to linked clinical, administrative, and social determinants of health data across diverse healthcare settings.",
+      "chunk_id": "PMC11137321_1",
+      "validation_status": "NOT_FOUND"
+    },
+    {
+      "article_title": "MENDS-on-FHIR: leveraging the OMOP common data model and FHIR standards for national chronic disease surveillance",
+      "doi": "10.1093/jamiaopen/ooae045",
+      "source_type": "FULL_TEXT",
+      "claim": "The originating data source is an OMOP CDM V5.3 relational database hosted by Health Data Compass.",
+      "quote": "The originating data source is a research data warehouse store in an OMOP CDM Version 5.3 relational database hosted by Health Data Compass (HDC).",
+      "chunk_id": "PMC11137321_10",
+      "validation_status": "EXACT"
+    },
+    {
+      "article_title": "MENDS-on-FHIR: leveraging the OMOP common data model and FHIR standards for national chronic disease surveillance",
+      "doi": "10.1093/jamiaopen/ooae045",
+      "source_type": "FULL_TEXT",
+      "claim": "Clinical data are extracted from UCHealth’s Epic EHR and stored in a GCP BigQuery relational data mart in OMOP CDM V5.3 format.",
+      "quote": "The yellow data flow begins with clinical data extracted from UCHealth’s Epic ® EHR stored in a GCP BigQuery relational data mart in OMOP CDM V5.3 format.",
+      "chunk_id": "PMC11137321_10",
+      "validation_status": "EXACT"
+    },
+    {
+      "article_title": "MENDS-on-FHIR: leveraging the OMOP common data model and FHIR standards for national chronic disease surveillance",
+      "doi": "10.1093/jamiaopen/ooae045",
+      "source_type": "FULL_TEXT",
+      "claim": "ANSI‑standard SQL statements query OMOP CDM V5.3 tables to generate output rows that create FHIR resources.",
+      "quote": "ANSI-standard SQL statements query OMOP CDM V5.3 tables to generate output rows that create FHIR resources.",
+      "chunk_id": "PMC11137321_13",
+      "validation_status": "EXACT"
+    },
+    {
+      "article_title": "MENDS-on-FHIR: leveraging the OMOP common data model and FHIR standards for national chronic disease surveillance",
+      "doi": "10.1093/jamiaopen/ooae045",
+      "source_type": "FULL_TEXT",
+      "claim": "SQL queries produce an \"OMOP JSON\" object representing rows from OMOP tables.",
+      "quote": "Each SQL statement creates an “OMOP JSON” object ( Figure 1B1 ) consisting of a single key and an array. The JSON key represents the original OMOP table.",
+      "chunk_id": "PMC11137321_13",
+      "validation_status": "EXACT"
+    },
+    {
+      "article_title": "MENDS-on-FHIR: leveraging the OMOP common data model and FHIR standards for national chronic disease surveillance",
+      "doi": "10.1093/jamiaopen/ooae045",
+      "source_type": "FULL_TEXT",
+      "claim": "OMOP JSON is transformed into FHIR R4 Bundle JSON using the Whistle JSON‑to‑JSON transformation engine.",
+      "quote": "OMOP JSON is transformed into FHIR R4 Bundle JSON format using an open-source JSON-to-JSON transformation engine that implements a functional language called Whistle.",
+      "chunk_id": "PMC11137321_14",
+      "validation_status": "EXACT"
+    },
+    {
+      "article_title": "MENDS-on-FHIR: leveraging the OMOP common data model and FHIR standards for national chronic disease surveillance",
+      "doi": "10.1093/jamiaopen/ooae045",
+      "source_type": "FULL_TEXT",
+      "claim": "Whistle transformation files produce FHIR output conformant to FHIR R4 V4.0.1 and US Core IG 4.0.0 specifications.",
+      "quote": "Whistle transformation files create FHIR output that is conformant to FHIR R4 V4.0.1 and US Core IG 4.0.0 specifications.",
+      "chunk_id": "PMC11137321_14",
+      "validation_status": "EXACT"
+    },
+    {
+      "article_title": "MENDS-on-FHIR: leveraging the OMOP common data model and FHIR standards for national chronic disease surveillance",
+      "doi": "10.1093/jamiaopen/ooae045",
+      "source_type": "FULL_TEXT",
+      "claim": "FHIR resources are validated for conformance using the open‑source HL7 FHIR Validator configured for FHIR R4 V4.0.1 and US‑Core IG V4.0.0.",
+      "quote": "FHIR validation tools examine the structure and content of FHIR resources for conformance to FHIR Profiles and IGs using the open-source HL7 FHIR Validator. The validator was configured to use FHIR R4 V4.0.1 and US-Core IG V4.0.0.",
+      "chunk_id": "PMC11137321_17",
+      "validation_status": "NOT_FOUND"
+    },
+    {
+      "article_title": "MENDS-on-FHIR: leveraging the OMOP common data model and FHIR standards for national chronic disease surveillance",
+      "doi": "10.1093/jamiaopen/ooae045",
+      "source_type": "FULL_TEXT",
+      "claim": "FHIR Bundle JSON files are uploaded to a FHIR server via a FHIR $import call, with import errors logged for inspection.",
+      "quote": "Each FHIR Bundle JSON file in Figure 1C is uploaded to a FHIR server ... using a FHIR $import call ... Import errors are logged for inspection after all resources are loaded.",
+      "chunk_id": "PMC11137321_18",
+      "validation_status": "NOT_FOUND"
+    },
+    {
+      "article_title": "MENDS-on-FHIR: leveraging the OMOP common data model and FHIR standards for national chronic disease surveillance",
+      "doi": "10.1093/jamiaopen/ooae045",
+      "source_type": "FULL_TEXT",
+      "claim": "The ESP server retrieves FHIR resources using a FHIR $export call.",
+      "quote": "The ESP server requests FHIR resources by executing a FHIR $export call to the FHIR server, which launches an asynchronous export process.",
+      "chunk_id": "PMC11137321_19",
+      "validation_status": "EXACT"
+    },
+    {
+      "article_title": "KETOS: Clinical decision support and machine learning as a service – A training and deployment platform based on Docker, OMOP-CDM, and FHIR Web Services",
+      "doi": "10.1371/journal.pone.0223010",
+      "source_type": "FULL_TEXT",
+      "claim": "The platform aims to make machine learning and decision support models deployable and patient data accessible by providing a standardized input data format.",
+      "quote": "In order to make machine learning and decision support models deployable and patient data accessible to researchers, the focus should be on providing the same input data format for the training and the calling process.",
+      "chunk_id": "PMC6776354_62",
+      "validation_status": "EXACT"
+    },
+    {
+      "article_title": "KETOS: Clinical decision support and machine learning as a service – A training and deployment platform based on Docker, OMOP-CDM, and FHIR Web Services",
+      "doi": "10.1371/journal.pone.0223010",
+      "source_type": "FULL_TEXT",
+      "claim": "Standardized patient data and a central webservice are required components of the platform.",
+      "quote": "In order to provide such a research and deployment platform ... the following requirements need to be satisfied: Standardized Patient Data : Standardized input data for development and deployment ... Model Building and Deployment Control Center : A central webservice to manage computations and data access.",
+      "chunk_id": "PMC6776354_62",
+      "validation_status": "NOT_FOUND"
+    },
+    {
+      "article_title": "KETOS: Clinical decision support and machine learning as a service – A training and deployment platform based on Docker, OMOP-CDM, and FHIR Web Services",
+      "doi": "10.1371/journal.pone.0223010",
+      "source_type": "FULL_TEXT",
+      "claim": "Cohort selection is supported by the OHDSI ATLAS tool and data are retrieved by converting FHIR resources into CSV format.",
+      "quote": "In the second step, the researchers define a group of patients in the cohort selection process, which is currently supported by the OHDSI ATLAS tool ... A data request is sent via the preprocessing service, which generates a so-called prepared dataset by converting the FHIR resources into an analysis-friendly CSV format.",
+      "chunk_id": "PMC6776354_72",
+      "validation_status": "NOT_FOUND"
+    },
+    {
+      "article_title": "KETOS: Clinical decision support and machine learning as a service – A training and deployment platform based on Docker, OMOP-CDM, and FHIR Web Services",
+      "doi": "10.1371/journal.pone.0223010",
+      "source_type": "FULL_TEXT",
+      "claim": "The platform maps the environment file system to the KETOS host for persistence, allowing models to be saved and loaded without platform‑specific knowledge.",
+      "quote": "The platform supports researchers in saving and loading their work within the respective environment, the file system of which is mapped to the KETOS host for persistence.",
+      "chunk_id": "PMC6776354_73",
+      "validation_status": "EXACT"
+    },
+    {
+      "article_title": "KETOS: Clinical decision support and machine learning as a service – A training and deployment platform based on Docker, OMOP-CDM, and FHIR Web Services",
+      "doi": "10.1371/journal.pone.0223010",
+      "source_type": "FULL_TEXT",
+      "claim": "Three example models were demonstrated using a synthetic dataset, a publicly available dataset, and an anonymized colorectal cancer patient dataset.",
+      "quote": "For our first example we generated a synthetic dataset and for our third example we used a publicly available dataset. For our second example we performed our analysis on an anonymized dataset of 300 colorectal cancer patients from the University Hospital Erlangen.",
+      "chunk_id": "PMC6776354_69",
+      "validation_status": "EXACT"
+    },
+    {
+      "article_title": "KETOS: Clinical decision support and machine learning as a service – A training and deployment platform based on Docker, OMOP-CDM, and FHIR Web Services",
+      "doi": "10.1371/journal.pone.0223010",
+      "source_type": "FULL_TEXT",
+      "claim": "KETOS provides a four‑step GUI workflow: create environment, define/retrieve data, adjust data and train models, and deploy as a web service.",
+      "quote": "The process consists of four main steps, as reflected in the GUI (see Fig 3 ): Create a development environment ... Define and retrieve data ... Adjust data further and train models ... Deploy and make the computation available via web service.",
+      "chunk_id": "PMC6776354_70",
+      "validation_status": "NOT_FOUND"
+    },
+    {
+      "article_title": "KETOS: Clinical decision support and machine learning as a service – A training and deployment platform based on Docker, OMOP-CDM, and FHIR Web Services",
+      "doi": "10.1371/journal.pone.0223010",
+      "source_type": "FULL_TEXT",
+      "claim": "Researchers can select Docker images (TensorFlow, R, DataSHIELD) that include Ubuntu/Alpine Linux, Jupyter Notebook, and a web service for model communication.",
+      "quote": "Researchers select a new Docker image via the GUI and initiates a new development environment. We currently provide three base image options: TensorFlow, R and DataSHIELD. Each image contains a base Ubuntu/Alpine Linux operating system, as well as a preinstalled Jupyter Notebook. It is augmented with a web service for the communication with the model.",
+      "chunk_id": "PMC6776354_71",
+      "validation_status": "NOT_FOUND"
+    },
+    {
+      "article_title": "Harvesting metadata in clinical care: a crosswalk between FHIR, OMOP, CDISC and openEHR metadata.",
+      "doi": "10.1038/s41597-022-01792-7",
+      "source_type": "FULL_TEXT",
+      "claim": "The research examines specifications for CDISC, OMOP, openEHR and FHIR and extracts their metadata items.",
+      "quote": "For the purpose of this research project, the specifications for the data formats CDISC, OMOP, openEHR and FHIR are examined. For every data format all corresponding metadata items are extracted and contrasted.",
+      "chunk_id": "PMC9616884_115",
+      "validation_status": "EXACT"
+    },
+    {
+      "article_title": "Harvesting metadata in clinical care: a crosswalk between FHIR, OMOP, CDISC and openEHR metadata.",
+      "doi": "10.1038/s41597-022-01792-7",
+      "source_type": "FULL_TEXT",
+      "claim": "The crosswalk aims to identify metadata items of high relevance for the MeDIC.",
+      "quote": "Following the conception of the metadata crosswalk, the next phase includes the identification of metadata items with high relevance for the MeDIC.",
+      "chunk_id": "PMC9616884_115",
+      "validation_status": "EXACT"
+    },
+    {
+      "article_title": "Harvesting metadata in clinical care: a crosswalk between FHIR, OMOP, CDISC and openEHR metadata.",
+      "doi": "10.1038/s41597-022-01792-7",
+      "source_type": "FULL_TEXT",
+      "claim": "The MeDIC will support OMOP, openEHR, FHIR and CDISC as target data formats.",
+      "quote": "Currently the data formats to be supported in the MeDIC include OMOP, openEHR, FHIR and CDISC.",
+      "chunk_id": "PMC9616884_127",
+      "validation_status": "EXACT"
+    },
+    {
+      "article_title": "Harvesting metadata in clinical care: a crosswalk between FHIR, OMOP, CDISC and openEHR metadata.",
+      "doi": "10.1038/s41597-022-01792-7",
+      "source_type": "FULL_TEXT",
+      "claim": "A metadata crosswalk is defined as a chart or map that depicts elements from different standards and enables transformation between formats.",
+      "quote": "A metadata crosswalk entails a chart or map which depicts elements from different standards or formats and groups equivalent elements. Crosswalks allow to transform elements from on format to another.",
+      "chunk_id": "PMC9616884_127",
+      "validation_status": "NOT_FOUND"
+    },
+    {
+      "article_title": "Harvesting metadata in clinical care: a crosswalk between FHIR, OMOP, CDISC and openEHR metadata.",
+      "doi": "10.1038/s41597-022-01792-7",
+      "source_type": "FULL_TEXT",
+      "claim": "Previous work has transformed single data formats, but transformation between more than two formats within a metadata crosswalk has not yet been performed.",
+      "quote": "Some authors previously showed the possibility of transforming single data formats into each other. However, the transformation between more than two data formats within a metadata crosswalk has not yet been performed.",
+      "chunk_id": "PMC9616884_120",
+      "validation_status": "EXACT"
+    },
+    {
+      "article_title": "Harvesting metadata in clinical care: a crosswalk between FHIR, OMOP, CDISC and openEHR metadata.",
+      "doi": "10.1038/s41597-022-01792-7",
+      "source_type": "FULL_TEXT",
+      "claim": "A literature search in PubMed and Embase was conducted to assess existing metadata standards.",
+      "quote": "To assess the field of existing metadata standards a literature research was conducted using PubMed and Embase via Ovid.",
+      "chunk_id": "PMC9616884_124",
+      "validation_status": "EXACT"
+    },
+    {
+      "article_title": "Harvesting metadata in clinical care: a crosswalk between FHIR, OMOP, CDISC and openEHR metadata.",
+      "doi": "10.1038/s41597-022-01792-7",
+      "source_type": "FULL_TEXT",
+      "claim": "The literature search identified 517 results, with 446 unique references after duplicate removal.",
+      "quote": "The search in both bibliographic databases yielded 517 results, of which 71 duplicates were removed automatically in Refworks, and 446 references remained.",
+      "chunk_id": "PMC9616884_124",
+      "validation_status": "NOT_FOUND"
+    },
+    {
+      "article_title": "Harvesting metadata in clinical care: a crosswalk between FHIR, OMOP, CDISC and openEHR metadata.",
+      "doi": "10.1038/s41597-022-01792-7",
+      "source_type": "FULL_TEXT",
+      "claim": "The FAIR principles (F1, F3, F4, A2, I3, R1.1) were taken into account for selecting essential metadata items.",
+      "quote": "Within the FAIR Principles, the principles F1, F3, F4, A2, I3 and R1.1 have been taken into account, as they directly relate to metadata.",
+      "chunk_id": "PMC9616884_115",
+      "validation_status": "NOT_FOUND"
+    },
+    {
+      "article_title": "Harvesting metadata in clinical care: a crosswalk between FHIR, OMOP, CDISC and openEHR metadata.",
+      "doi": "10.1038/s41597-022-01792-7",
+      "source_type": "FULL_TEXT",
+      "claim": "The term “metadata” lacks a clear definition, leading to heterogeneous understanding.",
+      "quote": "A fundamental problem, however, is the definition of metadata. ... there is no clear explanation of the term “metadata”.",
+      "chunk_id": "PMC9616884_120",
+      "validation_status": "NOT_FOUND"
+    },
+    {
+      "article_title": "Harvesting metadata in clinical care: a crosswalk between FHIR, OMOP, CDISC and openEHR metadata.",
+      "doi": "10.1038/s41597-022-01792-7",
+      "source_type": "FULL_TEXT",
+      "claim": "Definitions of matching, mapping and transformation of metadata differ in the literature.",
+      "quote": "Furthermore, the article shows how the definition of matching, mapping and transformation of metadata also differs in the literature.",
+      "chunk_id": "PMC9616884_120",
+      "validation_status": "EXACT"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "rank": 1,
+    "title": "MENDS-on-FHIR: leveraging the OMOP common data model and FHIR standards for national chronic disease surveillance",
+    "doi": "10.1093/jamiaopen/ooae045",
+    "year": 2024,
+    "section": "Discussion > Limitations and challenges > Data model challenges",
+    "distance": 0.7332710027694702,
+    "text": "n there are overlapping coverage periods. Despite differences in syntactic and semantic assumptions between OMOP and FHIR, there are advantages to using any common data model rather than an operational data source, such as the electronic health record. Some significant advantages are additional record linkages, code harmonizations, and data quality checks that are integral to creating and maintaining a CDM. By definition, a common data model has a well-define structure, widely used standard terminologies, and, over time, a set of community-wide approaches to dealing with unusual features in operational data sources. The simplified data structure of a CDM also lower the complexity of mapping from the CDM structure into FHIR resources. At the same time, a common data model may not capture data domains needed to generate FHIR resources for a specific use case. In the MENDS project, the OMOP CDM contained all data elements required to generate all required FHIR resources."
+  },
+  {
+    "rank": 2,
+    "title": "MENDS-on-FHIR: leveraging the OMOP common data model and FHIR standards for national chronic disease surveillance",
+    "doi": "10.1093/jamiaopen/ooae045",
+    "year": 2024,
+    "section": "Methods",
+    "distance": 0.744214653968811,
+    "text": "esulting extracted FHIR resources into the MENDS/ESP database. This is the pilot FHIR-to-MENDs ETL phase. A version of the OMOP-to-FHIR transformation and FHIR server import (Steps 2.0-4.0) with synthetic data in OMOP JavaScript Object Notation (JSON) format is freely available on GitHub ( https://github.com/CU-DBMI/mends-on-fhir )."
+  },
+  {
+    "rank": 3,
+    "title": "MENDS-on-FHIR: leveraging the OMOP common data model and FHIR standards for national chronic disease surveillance",
+    "doi": "10.1093/jamiaopen/ooae045",
+    "year": 2024,
+    "section": "Discussion > Limitations and challenges",
+    "distance": 0.751114010810852,
+    "text": "MENDS-on-FHIR limited the scope of OMOP-to-FHIR transformations to OMOP data required to meet the MENDS data requirements and conform to the US Core IG. The only conformant extension was including local source codes when allowed by the FHIR specification. Including source values aided debugging when original provenance was needed."
+  },
+  {
+    "rank": 4,
+    "title": "MENDS-on-FHIR: leveraging the OMOP common data model and FHIR standards for national chronic disease surveillance",
+    "doi": "10.1093/jamiaopen/ooae045",
+    "year": 2024,
+    "section": "Discussion",
+    "distance": 0.8155304789543152,
+    "text": "were required in the MENDS setting. One approach to these concerns could be implementing an independent replicated FHIR Server that is dedicated to servicing Bulk FHIR requests only. The computing resources for each FHIR Server could be independently “right sized” to meet performance requirements. A secondary benefit of this pilot is enabling data access to OMOP data via a Bulk FHIR interface ( Figure 1 ; yellow components). The OHDSI community, which supports the OMOP CDM, currently contains “over 3,260 collaborators in 80 countries across 21 time zones in 6 continents” ( https://ohdsi.org/who-we-are/collaborators/ ; accessed November 15, 2023). A FHIR data exchange capability opens this expansive network to even more data sharing possibilities beyond OMOP-specific queries. Propelled by regulatory mandates and certification requirements, FHIR data exchange capabilities are present in nearly all U.S. commercial EHR systems. Data aggregators do not have the same regulatory pressures and"
+  },
+  {
+    "rank": 5,
+    "title": "MENDS-on-FHIR: leveraging the OMOP common data model and FHIR standards for national chronic disease surveillance",
+    "doi": "10.1093/jamiaopen/ooae045",
+    "year": 2024,
+    "section": "Methods > Dataflow 2.0: OMOP JSON to FHIR R4 bundle JSON (OMOP-to-FHIR)",
+    "distance": 0.8170865178108215,
+    "text": "OMOP JSON is transformed into FHIR R4 Bundle JSON format using an open-source JSON-to-JSON transformation engine that implements a functional language called Whistle. 35 Whistle transformation files create FHIR output that is conformant to FHIR R4 V4.0.1 and US Core IG 4.0.0 specifications. Figure 3 illustrates a portion of the Whistle specification for transforming an OMOP PERSON record into a FHIR PATIENT resource. Elements on the left side of a colon are either internal variables or FHIR JSON keys. Elements on the right side of a colon are OMOP fields, Whistle functions that modify OMOP fields, or constants. The transformation functions are applied to each row in the OMOP JSON array, creating 1 or more FHIR resources. A terminal function wraps the array of FHIR resources into a single FHIR Bundle resource. Whistle transformation specification for creating FHIR R4 Person resource from OMOP CDM V5.3 Patient record. Functions such as USCore_Birthsex() use a unique feature of the Whistl"
+  }
+]

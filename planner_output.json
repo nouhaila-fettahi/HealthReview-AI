@@ -1,0 +1,50 @@
+
+===== RESEARCH PLANNER AGENT =====
+
+{
+  "research_topic": "Interoperability between HL7 FHIR and OMOP CDM using ETL pipelines in healthcare",
+  "research_question": "What design principles and technical strategies enable robust ETL pipelines that achieve seamless, loss‑less interoperability between HL7 FHIR resources and the OMOP Common Data Model while supporting data provenance, scalability, and real‑time analytics?",
+  "objectives": [
+    "Identify and categorize existing mapping approaches between FHIR resources and OMOP CDM tables.",
+    "Develop a reference ETL architecture that addresses syntactic transformation, semantic alignment, and provenance tracking.",
+    "Evaluate the reference ETL pipeline on multiple real‑world clinical datasets for data fidelity, performance, and scalability.",
+    "Formulate best‑practice guidelines for implementing and maintaining FHIR‑to‑OMOP interoperability in production environments.",
+    "Assess regulatory and privacy considerations (e.g., HIPAA, GDPR) relevant to cross‑model data exchange."
+  ],
+  "keywords": [
+    "HL7 FHIR",
+    "OMOP Common Data Model",
+    "ETL pipelines",
+    "Healthcare interoperability",
+    "Data mapping",
+    "Semantic translation",
+    "Data provenance",
+    "Real‑time analytics",
+    "Clinical data integration"
+  ],
+  "databases": [
+    "PubMed",
+    "Embase",
+    "IEEE Xplore",
+    "ACM Digital Library",
+    "Scopus",
+    "Web of Science"
+  ],
+  "inclusion_criteria": [
+    "Peer‑reviewed journal articles, conference papers, or technical reports.",
+    "Publications from the last 10 years (2014–2024).",
+    "English language.",
+    "Studies that describe, implement, or evaluate ETL processes linking HL7 FHIR to OMOP CDM.",
+    "Reports that include quantitative or qualitative assessment of data fidelity, performance, or scalability.",
+    "Works that discuss semantic mapping, terminology alignment, or provenance mechanisms between the two models."
+  ],
+  "exclusion_criteria": [
+    "Articles focusing solely on either FHIR or OMOP without addressing interoperability.",
+    "Non‑technical opinion pieces, editorials, or commentaries without empirical data.",
+    "Studies limited to synthetic or toy datasets without real clinical data validation.",
+    "Publications not providing sufficient methodological detail to reproduce the ETL pipeline.",
+    "Non‑English publications."
+  ]
+}
+
+===== PLANNER COMPLETED =====

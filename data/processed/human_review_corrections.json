@@ -1,0 +1,37 @@
+[
+  {
+    "doi": "10.3233/shti210545",
+    "criterion": "C6_evaluation_metrics",
+    "previous_justification": "L'article rapporte plusieurs indicateurs quantitatifs :",
+    "restored_justification": "Quantitative metrics are reported, including mapping score, coverage of slightly over 50%, and near‑100% success rate.",
+    "source": "methodological_quality_assessment.json"
+  },
+  {
+    "doi": "10.3233/shti210545",
+    "criterion": "C7_reproducibility",
+    "previous_justification": "Mapping score.",
+    "restored_justification": "The abstract does not mention availability of code, tools, or detailed implementation steps that would enable replication.",
+    "source": "methodological_quality_assessment.json"
+  },
+  {
+    "doi": "10.3233/shti210545",
+    "criterion": "C8_limitations",
+    "previous_justification": "Data coverage légèrement supérieure à 50 %.",
+    "restored_justification": "No discussion of methodological limitations is present in the provided information.",
+    "source": "methodological_quality_assessment.json"
+  },
+  {
+    "doi": "10.1093/jamiaopen/ooae045",
+    "criterion": "C1_objectives",
+    "previous_justification": "Taux de succès proche de 100 %.",
+    "restored_justification": "The abstract explicitly states the objective: to examine HL7 FHIR/US Core resources derived from OMOP CDM and to create a standards‑based ETL pipeline.",
+    "source": "methodological_quality_assessment.json"
+  },
+  {
+    "doi": "10.1093/jamiaopen/ooae045",
+    "criterion": "C5_validation",
+    "previous_justification": "Cependant, le résumé ne détaille pas les règles de mapping ni les procédures d'alignement sémantique.YES",
+    "restored_justification": "Results state that the OMOP‑to‑FHIR transformation passed validation with a non‑compliance rate of less than 1%.",
+    "source": "methodological_quality_assessment.json"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "screening_statistics": {
+    "records_screened": 19,
+    "included": 5,
+    "excluded": 10,
+    "uncertain": 4
+  },
+  "note": "Preliminary counts based on final screening records. These are not a complete PRISMA 2020 flow diagram."
+}

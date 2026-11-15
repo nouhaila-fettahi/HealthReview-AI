@@ -1,0 +1,227 @@
+{
+  "assessment_date": "2026-11-14T18:24:51.606654+00:00",
+  "assessment_type": "AI-assisted methodological quality appraisal",
+  "criteria": {
+    "C1_objectives": "Clarity of research objectives",
+    "C2_data_provenance": "Description of data sources and provenance",
+    "C3_representativeness": "Representativeness of the data",
+    "C4_mapping_methodology": "Clarity of the mapping or transformation methodology",
+    "C5_validation": "Validation of the proposed method or system",
+    "C6_evaluation_metrics": "Use of evaluation metrics or measurable results",
+    "C7_reproducibility": "Availability of tools, code, and implementation details",
+    "C8_limitations": "Discussion of methodological limitations"
+  },
+  "total_articles": 5,
+  "successfully_assessed": 5,
+  "failed_assessments": 0,
+  "human_review_required": true,
+  "assessments": [
+    {
+      "article_title": "Towards the Representation of Genomic Data in HL7 FHIR and OMOP CDM",
+      "doi": "10.3233/shti210545",
+      "study_type": "Methodological study",
+      "criteria": {
+        "C1_objectives": {
+          "rating": "YES",
+          "justification": "The abstract clearly states the aim to create semantic mappings from raw genomic data to FHIR and OMOP CDM and to analyze data coverage."
+        },
+        "C2_data_provenance": {
+          "rating": "PARTIAL",
+          "justification": "The abstract mentions using raw genomic data in VCF format but does not specify the source, cohort characteristics, or provenance details."
+        },
+        "C3_representativeness": {
+          "rating": "UNCLEAR",
+          "justification": "No information is provided about the population or sample from which the genomic data were drawn, making it impossible to assess representativeness."
+        },
+        "C4_mapping_methodology": {
+          "rating": "PARTIAL",
+          "justification": "The paper reports that a semantic mapping was created and a mapping score calculated, but the abstract lacks detailed description of the mapping procedures or algorithms."
+        },
+        "C5_validation": {
+          "rating": "PARTIAL",
+          "justification": "Results such as \"almost 100% success\" and coverage percentages provide internal validation of the transformation, but no external or independent validation is described."
+        },
+        "C6_evaluation_metrics": {
+          "rating": "YES",
+          "justification": "Quantitative metrics are reported, including mapping score, coverage of slightly over 50%, and near‑100% success rate."
+        },
+        "C7_reproducibility": {
+          "rating": "UNCLEAR",
+          "justification": "The abstract does not mention availability of code, tools, or detailed implementation steps that would enable replication."
+        },
+        "C8_limitations": {
+          "rating": "UNCLEAR",
+          "justification": "No discussion of methodological limitations is present in the provided information."
+        }
+      },
+      "overall_comment": "The article presents a clear methodological objective and provides quantitative evaluation metrics for the proposed semantic mapping between FHIR and OMOP CDM. However, details on data provenance, representativeness, full mapping methodology, reproducibility resources, and limitations are insufficient or missing, limiting the ability to fully assess methodological robustness.",
+      "human_review_required": true
+    },
+    {
+      "article_title": "MENDS-on-FHIR: leveraging the OMOP common data model and FHIR standards for national chronic disease surveillance",
+      "doi": "10.1093/jamiaopen/ooae045",
+      "study_type": "Implementation study",
+      "criteria": {
+        "C1_objectives": {
+          "rating": "YES",
+          "justification": "The abstract explicitly states the objective: to examine HL7 FHIR/US Core resources derived from OMOP CDM and to create a standards‑based ETL pipeline."
+        },
+        "C2_data_provenance": {
+          "rating": "YES",
+          "justification": "The input data source is described as a research data warehouse containing clinical and administrative data in OMOP CDM v5.3 format."
+        },
+        "C3_representativeness": {
+          "rating": "UNCLEAR",
+          "justification": "The abstract provides no information on the population covered, geographic scope, or how representative the underlying OMOP data are for national chronic disease surveillance."
+        },
+        "C4_mapping_methodology": {
+          "rating": "PARTIAL",
+          "justification": "The abstract mentions the use of a JSON‑to‑JSON transformation language (Whistle) to convert eleven OMOP tables into ten FHIR/US Core resource types, indicating a mapping approach, but detailed mapping rules or semantic alignment procedures are not described."
+        },
+        "C5_validation": {
+          "rating": "YES",
+          "justification": "Results state that the OMOP‑to‑FHIR transformation passed validation with a non‑compliance rate of less than 1%."
+        },
+        "C6_evaluation_metrics": {
+          "rating": "YES",
+          "justification": "Quantitative metrics are reported: 1.13 trillion resources extracted and a non‑compliance rate of <1%."
+        },
+        "C7_reproducibility": {
+          "rating": "UNCLEAR",
+          "justification": "While the abstract names the Whistle language and a local FHIR server, it does not provide information on code availability, public repositories, or detailed implementation instructions."
+        },
+        "C8_limitations": {
+          "rating": "UNCLEAR",
+          "justification": "No discussion of methodological limitations or potential sources of bias is presented in the abstract."
+        }
+      },
+      "overall_comment": "The article clearly defines its objective, data source, and provides quantitative validation of an OMOP‑to‑FHIR ETL pipeline, demonstrating strong methodological reporting in those areas. However, details on data representativeness, full mapping specifications, reproducibility resources, and study limitations are missing from the abstract, limiting a full appraisal of external validity and reproducibility.",
+      "human_review_required": true
+    },
+    {
+      "article_title": "FHIR-Ontop-OMOP: Building clinical knowledge graphs in FHIR RDF with the OMOP Common data Model",
+      "doi": "10.1016/j.jbi.2022.104201",
+      "study_type": "System development and evaluation",
+      "criteria": {
+        "C1_objectives": {
+          "rating": "YES",
+          "justification": "The abstract explicitly states the objective: to develop and evaluate methods and tools that expose OMOP CDM repositories as FHIR‑RDF compliant clinical knowledge graphs."
+        },
+        "C2_data_provenance": {
+          "rating": "YES",
+          "justification": "The authors specify that they used an OMOP CDM‑based MIMIC‑III data repository, providing a clear description of the data source."
+        },
+        "C3_representativeness": {
+          "rating": "UNCLEAR",
+          "justification": "Only the MIMIC‑III ICU dataset is mentioned; no information is provided about how representative this data is of broader clinical settings."
+        },
+        "C4_mapping_methodology": {
+          "rating": "PARTIAL",
+          "justification": "The abstract notes that >100 data element mappings covering 11 FHIR resources were implemented, but detailed mapping procedures or algorithms are not described."
+        },
+        "C5_validation": {
+          "rating": "YES",
+          "justification": "Validation is reported via identical patient counts from paired SQL/SPARQL queries and full conformance of generated RDF triples to the FHIR RDF specification."
+        },
+        "C6_evaluation_metrics": {
+          "rating": "YES",
+          "justification": "Quantitative results are provided (counts of instances for various FHIR resources, identical query results, conformance checks), serving as measurable evaluation metrics."
+        },
+        "C7_reproducibility": {
+          "rating": "UNCLEAR",
+          "justification": "The abstract mentions a beta version release but gives no details on code availability, repository links, or sufficient implementation specifics to assess reproducibility."
+        },
+        "C8_limitations": {
+          "rating": "UNCLEAR",
+          "justification": "No discussion of methodological limitations is present in the supplied abstract."
+        }
+      },
+      "overall_comment": "The article clearly defines its objectives, data source, and provides quantitative validation of the FHIR‑OMOP transformation, indicating a solid methodological foundation for the system. However, details on mapping procedures, reproducibility resources, and study limitations are lacking, limiting full appraisal of methodological rigor.",
+      "human_review_required": true
+    },
+    {
+      "article_title": "From OpenEHR to FHIR and OMOP Data Model for Microbiology Findings.",
+      "doi": "10.3233/shti210189",
+      "study_type": "Implementation study",
+      "criteria": {
+        "C1_objectives": {
+          "rating": "YES",
+          "justification": "The abstract clearly states the aim to map infection‑control data from openEHR to FHIR and then to OMOP CDM and to provide an overview of this experience."
+        },
+        "C2_data_provenance": {
+          "rating": "PARTIAL",
+          "justification": "The article mentions that the data are infection‑related information modelled in openEHR by the HiGHmed consortium across eight university hospitals, but provides no detailed description of the original source systems or provenance metadata."
+        },
+        "C3_representativeness": {
+          "rating": "UNCLEAR",
+          "justification": "No information is given about the size, scope, or patient population of the microbiology dataset, making it impossible to judge representativeness."
+        },
+        "C4_mapping_methodology": {
+          "rating": "PARTIAL",
+          "justification": "The abstract reports that openEHR data were mapped to FHIR and then to OMOP CDM, indicating that a mapping process was performed, but it lacks detail on the specific methods, rules, or tools used."
+        },
+        "C5_validation": {
+          "rating": "UNCLEAR",
+          "justification": "The abstract does not mention any validation activities (e.g., correctness checks, data fidelity assessment) for the mappings."
+        },
+        "C6_evaluation_metrics": {
+          "rating": "UNCLEAR",
+          "justification": "No quantitative or qualitative metrics are reported to evaluate the success or performance of the mapping/ETL process."
+        },
+        "C7_reproducibility": {
+          "rating": "UNCLEAR",
+          "justification": "There is no mention of code repositories, tool availability, or detailed implementation steps that would enable replication."
+        },
+        "C8_limitations": {
+          "rating": "UNCLEAR",
+          "justification": "The abstract does not discuss any methodological limitations or challenges encountered."
+        }
+      },
+      "overall_comment": "The article clearly defines its objective of mapping infection‑control data across openEHR, FHIR, and OMOP CDM, and it describes the high‑level transformation workflow. However, the abstract provides limited information on data provenance, methodological detail, validation, evaluation metrics, reproducibility resources, and limitations, leaving many aspects of methodological quality uncertain.",
+      "human_review_required": true
+    },
+    {
+      "article_title": "Data Integration into OMOP CDM for Heterogeneous Clinical Data Collections via HL7 FHIR Bundles and XSLT.",
+      "doi": "10.3233/shti200138",
+      "study_type": "Implementation study",
+      "criteria": {
+        "C1_objectives": {
+          "rating": "YES",
+          "justification": "The abstract explicitly states the aim: to integrate heterogeneous data from a German pulmonary hypertension registry into the OMOP CDM using HL7 FHIR as an intermediate format."
+        },
+        "C2_data_provenance": {
+          "rating": "PARTIAL",
+          "justification": "The source is identified as a German pulmonary hypertension registry, but details about data collection methods, time frame, or provenance are not provided."
+        },
+        "C3_representativeness": {
+          "rating": "UNCLEAR",
+          "justification": "No information is given on how representative the registry data are of broader patient populations or settings."
+        },
+        "C4_mapping_methodology": {
+          "rating": "YES",
+          "justification": "The abstract describes the mapping process: domain experts defined a common parameter set, mapped to LOINC/SNOMED-CT, extracted data as FHIR bundles, and transformed them to OMOP CDM using XSLT."
+        },
+        "C5_validation": {
+          "rating": "PARTIAL",
+          "justification": "The authors report successful transformation of the majority of data elements, indicating a basic validation, but no systematic validation procedures or external checks are described."
+        },
+        "C6_evaluation_metrics": {
+          "rating": "PARTIAL",
+          "justification": "Outcome is described qualitatively ('majority of data elements', 'feasible time'), without quantitative metrics or detailed performance results."
+        },
+        "C7_reproducibility": {
+          "rating": "UNCLEAR",
+          "justification": "While XSLT and FHIR bundles are mentioned, there is no information on code availability, detailed implementation scripts, or repositories that would enable replication."
+        },
+        "C8_limitations": {
+          "rating": "UNCLEAR",
+          "justification": "The abstract does not discuss any methodological limitations or challenges."
+        }
+      },
+      "overall_comment": "The article clearly presents an implementation of an ETL pipeline using FHIR bundles and XSLT to load registry data into OMOP CDM, with a well‑described mapping approach. However, details on data provenance, representativeness, systematic validation, quantitative evaluation, reproducibility resources, and limitations are lacking or insufficient in the abstract.",
+      "human_review_required": true
+    }
+  ],
+  "errors": [],
+  "limitations": "Preliminary AI-assisted appraisal based on available article metadata and abstracts. Full-text review and human verification are required."
+}

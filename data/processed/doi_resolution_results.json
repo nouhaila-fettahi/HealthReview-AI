@@ -1,0 +1,285 @@
+{
+  "total": 9,
+  "articles": [
+    {
+      "original_title": "Towards the Representation of Genomic Data in HL7 FHIR and OMOP CDM",
+      "final_decision": "INCLUDE",
+      "crossref": {
+        "matched": true,
+        "similarity": 1.0,
+        "title": "Towards the Representation of Genomic Data in HL7 FHIR and OMOP CDM",
+        "doi": "10.3233/shti210545",
+        "year": 2021,
+        "publisher": "IOS Press",
+        "authors": [
+          "Yuan Peng",
+          "Azadeh Nassirian",
+          "Najia Ahmadi",
+          "Martin Sedlmayr",
+          "Franziska Bathelt"
+        ]
+      },
+      "europe_pmc": {
+        "matched": true,
+        "similarity": 1.0,
+        "title": "Towards the Representation of Genomic Data in HL7 FHIR and OMOP CDM.",
+        "pmid": "34545823",
+        "pmcid": null,
+        "is_open_access": false,
+        "full_text_url": null
+      },
+      "status": "MATCH_FOUND"
+    },
+    {
+      "original_title": "MENDS-on-FHIR: leveraging the OMOP common data model and FHIR standards for national chronic disease surveillance",
+      "final_decision": "INCLUDE",
+      "crossref": {
+        "matched": true,
+        "similarity": 1.0,
+        "title": "MENDS-on-FHIR: leveraging the OMOP common data model and FHIR standards for national chronic disease surveillance",
+        "doi": "10.1093/jamiaopen/ooae045",
+        "year": 2024,
+        "publisher": "Oxford University Press (OUP)",
+        "authors": [
+          "Shahim Essaid",
+          "Jeff Andre",
+          "Ian M Brooks",
+          "Katherine H Hohman",
+          "Madelyne Hull",
+          "Sandra L Jackson",
+          "Michael G Kahn",
+          "Emily M Kraus",
+          "Neha Mandadi",
+          "Amanda K Martinez",
+          "Joyce Y Mui",
+          "Bob Zambarano",
+          "Andrey Soares"
+        ]
+      },
+      "europe_pmc": {
+        "matched": true,
+        "similarity": 1.0,
+        "title": "MENDS-on-FHIR: leveraging the OMOP common data model and FHIR standards for national chronic disease surveillance.",
+        "pmid": "38818114",
+        "pmcid": "PMC11137321",
+        "is_open_access": true,
+        "full_text_url": "https://europepmc.org/articles/PMC11137321"
+      },
+      "status": "MATCH_FOUND"
+    },
+    {
+      "original_title": "FHIR-Ontop-OMOP: Building clinical knowledge graphs in FHIR RDF with the OMOP Common data Model",
+      "final_decision": "INCLUDE",
+      "crossref": {
+        "matched": true,
+        "similarity": 1.0,
+        "title": "FHIR-Ontop-OMOP: Building clinical knowledge graphs in FHIR RDF with the OMOP Common data Model",
+        "doi": "10.1016/j.jbi.2022.104201",
+        "year": 2022,
+        "publisher": "Elsevier BV",
+        "authors": [
+          "Guohui Xiao",
+          "Emily Pfaff",
+          "Eric Prud'hommeaux",
+          "David Booth",
+          "Deepak K. Sharma",
+          "Nan Huo",
+          "Yue Yu",
+          "Nansu Zong",
+          "Kathryn J. Ruddy",
+          "Christopher G. Chute",
+          "Guoqian Jiang"
+        ]
+      },
+      "europe_pmc": {
+        "matched": true,
+        "similarity": 1.0,
+        "title": "FHIR-Ontop-OMOP: Building clinical knowledge graphs in FHIR RDF with the OMOP Common data Model.",
+        "pmid": "36089199",
+        "pmcid": "PMC9561043",
+        "is_open_access": true,
+        "full_text_url": "https://europepmc.org/articles/PMC9561043"
+      },
+      "status": "MATCH_FOUND"
+    },
+    {
+      "original_title": "KETOS: Clinical decision support and machine learning as a service – A training and deployment platform based on Docker, OMOP-CDM, and FHIR Web Services",
+      "final_decision": "UNCERTAIN",
+      "crossref": {
+        "matched": true,
+        "similarity": 1.0,
+        "title": "KETOS: Clinical decision support and machine learning as a service – A training and deployment platform based on Docker, OMOP-CDM, and FHIR Web Services",
+        "doi": "10.1371/journal.pone.0223010",
+        "year": 2019,
+        "publisher": "Public Library of Science (PLoS)",
+        "authors": [
+          "Julian Gruendner",
+          "Thorsten Schwachhofer",
+          "Phillip Sippl",
+          "Nicolas Wolf",
+          "Marcel Erpenbeck",
+          "Christian Gulden",
+          "Lorenz A. Kapsner",
+          "Jakob Zierk",
+          "Sebastian Mate",
+          "Michael Stürzl",
+          "Roland Croner",
+          "Hans-Ulrich Prokosch",
+          "Dennis Toddenroth"
+        ]
+      },
+      "europe_pmc": {
+        "matched": true,
+        "similarity": 1.0,
+        "title": "KETOS: Clinical decision support and machine learning as a service - A training and deployment platform based on Docker, OMOP-CDM, and FHIR Web Services.",
+        "pmid": "31581246",
+        "pmcid": "PMC6776354",
+        "is_open_access": true,
+        "full_text_url": "https://europepmc.org/articles/PMC6776354"
+      },
+      "status": "MATCH_FOUND"
+    },
+    {
+      "original_title": "recruIT: A cloud-native clinical trial recruitment support system based on Health Level 7 Fast Healthcare Interoperability Resources (HL7 FHIR) and the Observational Medical Outcomes Partnership Common Data Model (OMOP CDM).",
+      "final_decision": "UNCERTAIN",
+      "crossref": {
+        "matched": true,
+        "similarity": 1.0,
+        "title": "recruIT: A cloud-native clinical trial recruitment support system based on Health Level 7 Fast Healthcare Interoperability Resources (HL7 FHIR) and the Observational Medical Outcomes Partnership Common Data Model (OMOP CDM)",
+        "doi": "10.1016/j.compbiomed.2024.108411",
+        "year": 2024,
+        "publisher": "Elsevier BV",
+        "authors": [
+          "Christian Gulden",
+          "Philipp Macho",
+          "Ines Reinecke",
+          "Cosima Strantz",
+          "Hans-Ulrich Prokosch",
+          "Romina Blasini"
+        ]
+      },
+      "europe_pmc": {
+        "matched": true,
+        "similarity": 1.0,
+        "title": "recruIT: A cloud-native clinical trial recruitment support system based on Health Level 7 Fast Healthcare Interoperability Resources (HL7 FHIR) and the Observational Medical Outcomes Partnership Common Data Model (OMOP CDM).",
+        "pmid": "38626510",
+        "pmcid": null,
+        "is_open_access": false,
+        "full_text_url": null
+      },
+      "status": "MATCH_FOUND"
+    },
+    {
+      "original_title": "Design for a Modular Clinical Trial Recruitment Support System Based on FHIR and OMOP.",
+      "final_decision": "UNCERTAIN",
+      "crossref": {
+        "matched": true,
+        "similarity": 1.0,
+        "title": "Design for a Modular Clinical Trial Recruitment Support System Based on FHIR and OMOP",
+        "doi": "10.3233/shti200142",
+        "year": 2020,
+        "publisher": "IOS Press",
+        "authors": [
+          "Reinecke Ines",
+          "Gulden Christian",
+          "Kümmel Michéle",
+          "Nassirian Azadeh",
+          "Blasini Romina",
+          "Sedlmayr Martin"
+        ]
+      },
+      "europe_pmc": {
+        "matched": true,
+        "similarity": 1.0,
+        "title": "Design for a Modular Clinical Trial Recruitment Support System Based on FHIR and OMOP.",
+        "pmid": "32570366",
+        "pmcid": null,
+        "is_open_access": false,
+        "full_text_url": null
+      },
+      "status": "MATCH_FOUND"
+    },
+    {
+      "original_title": "From OpenEHR to FHIR and OMOP Data Model for Microbiology Findings.",
+      "final_decision": "INCLUDE",
+      "crossref": {
+        "matched": true,
+        "similarity": 1.0,
+        "title": "From OpenEHR to FHIR and OMOP Data Model for Microbiology Findings",
+        "doi": "10.3233/shti210189",
+        "year": 2021,
+        "publisher": "IOS Press",
+        "authors": [
+          "Eugenia Rinaldi",
+          "Sylvia Thun"
+        ]
+      },
+      "europe_pmc": {
+        "matched": true,
+        "similarity": 1.0,
+        "title": "From OpenEHR to FHIR and OMOP Data Model for Microbiology Findings.",
+        "pmid": "34042774",
+        "pmcid": null,
+        "is_open_access": false,
+        "full_text_url": null
+      },
+      "status": "MATCH_FOUND"
+    },
+    {
+      "original_title": "Data Integration into OMOP CDM for Heterogeneous Clinical Data Collections via HL7 FHIR Bundles and XSLT.",
+      "final_decision": "INCLUDE",
+      "crossref": {
+        "matched": true,
+        "similarity": 1.0,
+        "title": "Data Integration into OMOP CDM for Heterogeneous Clinical Data Collections via HL7 FHIR Bundles and XSLT",
+        "doi": "10.3233/shti200138",
+        "year": 2020,
+        "publisher": "IOS Press",
+        "authors": [
+          "Fischer Patrick",
+          "Stöhr Mark R.",
+          "Gall Henning",
+          "Michel-Backofen Achim",
+          "Majeed Raphael W."
+        ]
+      },
+      "europe_pmc": {
+        "matched": true,
+        "similarity": 1.0,
+        "title": "Data Integration into OMOP CDM for Heterogeneous Clinical Data Collections via HL7 FHIR Bundles and XSLT.",
+        "pmid": "32570362",
+        "pmcid": null,
+        "is_open_access": false,
+        "full_text_url": null
+      },
+      "status": "MATCH_FOUND"
+    },
+    {
+      "original_title": "Harvesting metadata in clinical care: a crosswalk between FHIR, OMOP, CDISC and openEHR metadata.",
+      "final_decision": "UNCERTAIN",
+      "crossref": {
+        "matched": true,
+        "similarity": 1.0,
+        "title": "Harvesting metadata in clinical care: a crosswalk between FHIR, OMOP, CDISC and openEHR metadata",
+        "doi": "10.1038/s41597-022-01792-7",
+        "year": 2022,
+        "publisher": "Springer Science and Business Media LLC",
+        "authors": [
+          "Caroline Bönisch",
+          "Dorothea Kesztyüs",
+          "Tibor Kesztyüs"
+        ]
+      },
+      "europe_pmc": {
+        "matched": true,
+        "similarity": 1.0,
+        "title": "Harvesting metadata in clinical care: a crosswalk between FHIR, OMOP, CDISC and openEHR metadata.",
+        "pmid": "36307424",
+        "pmcid": "PMC9616884",
+        "is_open_access": true,
+        "full_text_url": "https://europepmc.org/articles/PMC9616884"
+      },
+      "status": "MATCH_FOUND"
+    }
+  ]
+}

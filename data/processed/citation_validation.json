@@ -1,0 +1,24 @@
+{
+  "total_citations": 1,
+  "valid_citations": 1,
+  "invalid_citations": 0,
+  "validation_status": "PASSED",
+  "citation_results": [
+    {
+      "title": "MENDS-on-FHIR: leveraging the OMOP common data model and FHIR standards for national chronic disease surveillance",
+      "doi": "10.1093/jamiaopen/ooae045",
+      "doi_valid": true,
+      "title_valid": true,
+      "year_valid": true,
+      "ranks_valid": true,
+      "valid_ranks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "VALID"
+    }
+  ]
+}
